@@ -1,0 +1,228 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  :root{
+    --vermelho: #b11c2a;
+    --azul: #0091a4;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+
+/*-----------------------------------------------------------------------------------*/
+/*margin 14%*/
+body {
+  font-family: 'Poppins', sans-serif, Arial, Helvetica;
+  background-color: #F2F2F2;
+}
+
+header.container {
+  width: 100%;
+  height: 143px;
+  background-color: #F2F2F2;
+  /*position: fixed;*/
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 71px 14%;
+}
+
+.logo {
+  width: auto;
+  height: 84px;
+} 
+
+.headerNavBar {
+  width: 25%;
+}
+
+.headerNavBar li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+main.container {
+  margin-left: 14%;
+  margin-right: 14%;
+}
+
+main.container .sectionFeiraDeEmprego {
+  display: flex;
+}
+
+main.container .sectionFeiraDeEmprego .feiraDeEmprego {
+  width: 50%;
+}
+
+main.container .programa .programacao {
+  width: 100%;
+}
+
+main.container .programa .programacao tr,td {
+  border: 1px solid black;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+main.container .parceiros .organizadoresParceirosGold {
+  display: flex;
+}
+
+main.container .parceiros .organizadoresParceirosGold .organizadores {
+  width: 50%;
+}
+
+main.container .parceiros .organizadoresParceirosGold .parceirosGold {
+  width: 50%;
+}
+
+main.container .parceiros .parceirosSilver {
+width: 100%;
+}
+
+footer.container {
+  display: flex;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+
+footer.container .redesSociaisLogos {
+  display: flex;
+}
+
+table {
+  margin-bottom: 2%;
+}
+
+.tableEspacamento {
+  height: 10px;
+}
+
+
+.containerDia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    "dia dia"
+    "manha tarde";
+  margin-bottom: 6%;
+}
+.dia {
+  grid-area: dia;
+  text-align: center;
+}
+
+.manha {
+  grid-area: manha;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 12px 12px;
+  grid-template-areas:
+    "manhaTarde manhaTarde"
+    "card1 card2"
+    "card3 card4"
+    "card5 card6"
+    "card7 card8";
+}
+
+.manhaTarde {
+  display: flex;
+  grid-area: manhaTarde;
+  align-items: center;
+  justify-content: center;
+
+}
+.tarde {
+  grid-area: tarde;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 12px 12px;
+  grid-template-areas:
+    "manhaTarde manhaTarde"
+    "card1 card2"
+    "card3 card4"
+    "card5 card6"
+    "card7 card8";
+}
+
+.card {
+  padding: 20px;
+  color: white;
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "hora descricao";
+  gap: 4px 4px;
+
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 1.8em;
+  font-weight: normal;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+h4{
+  font-size: 1em;
+  font-weight: normal;
+}
+.cardVermelho {
+  background-color: var(--vermelho);
+  max-width: 386px;
+  max-height: 160px;
+}
+
+.cardAzul {
+  background-color: var(--azul);
+  max-width: 386px;
+  max-height: 160px;
+}
