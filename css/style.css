@@ -99,6 +99,34 @@ main.container .programa .programacao tr,td {
   border: 1px solid black;
 }
 
+main.container .programa .programacao article {
+  display: flex;
+}
+
+main.container .programa .programacao article .programacaoHoras {
+  width: 30%;
+}
+
+main.container .programa .programacao article .programacaoHoras h1 {
+  font-weight: bold;
+  font-size: 2.2em;
+  margin-left: 5%;
+}
+
+main.container .programa .programacao article .programaTema {
+  width: 70%;
+}
+
+main.container .programa .programacao article .programaTema h2 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+main.container .programa .programacao article .programaTema h3 {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
 .textCenter {
   text-align: center;
 }
