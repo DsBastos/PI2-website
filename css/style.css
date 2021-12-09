@@ -48,7 +48,7 @@ body {
   background-color: #F2F2F2;
 }
 
-header .wrapper {
+header.wrapper {
   width: 100%;
   height: 143px;
   background-color: #F2F2F2;
@@ -262,4 +262,16 @@ h4{
   background-color: var(--azul);
   /*max-width: 386px;
   max-height: 160px;*/
+}
+
+.logosDosOrganizadores {
+  display: flex;
+}
+
+.logosDosOParceirosGold {
+  display: flex;
+}
+
+.logosDosParceirosSilver {
+  display: flex;
 }

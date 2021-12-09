@@ -19,26 +19,24 @@
     rel="stylesheet" />
 </head>
 
-
-
 <body>
   <header>
     <div class="wrapper">
-    <img class="logo" src="../imagens/logo.png" alt="Feira de Emprego logo" />
-    <nav class="headerNavBar">
-      <ul>
-        <li><a href="#programa">Programa</a></li>
-        <li><a href="#parceiros">Parceiros</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-      </ul>
-    </nav>
-  </div>
+      <img class="logo" src="../imagens/logo.png" alt="Feira de Emprego logo" />
+      <nav class="headerNavBar">
+        <ul>
+          <li><a href="#programa">Programa</a></li>
+          <li><a href="#parceiros">Parceiros</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
     <div class="wrapper">
-      <article class="sectionFeiraDeEmprego">
-        <section class="feiraDeEmprego">
+      <div class="divFeiraDeEmprego">
+        <section class="feiraDeEmpregoDataLocal">
           <h1>FEIRA<br />EMPREGO</h1>
           <h2>3-4 março 2022</h2>
           <h3>Pavilhão ESTGV</h3>
@@ -46,18 +44,21 @@
         <section class="imagemHeroi">
           <img src="" alt="Imagem Herói" />
         </section>
-      </article>
-  
-      <section class="infoEvento">
-        <p>
-          Esta 4ª edição junta o Departamento de Gestão e o Departamento de
-          Engenharia Mecânica e Gestão Industrial, do Instituto Politécnico de
-          Viseu, para colocar os estudantes e a comunidade em contacto com as
-          empresas e dar a conhecer oportunidades de estágio.
-        </p>
-        <p>O evento é aberto a todos e <b>gratuito</b>.</p>
-      </section>
-  
+      </div>
+
+      <div class="divInfoEvento">
+        <div class="infoEvento">
+          <p>
+            Esta 4ª edição junta o Departamento de Gestão e o Departamento de
+            Engenharia Mecânica e Gestão Industrial, do Instituto Politécnico de
+            Viseu, para colocar os estudantes e a comunidade em contacto com as
+            empresas e dar a conhecer oportunidades de estágio.
+          </p>
+          <p>O evento é aberto a todos e <b>gratuito</b>.</p>
+        </div>
+      </div>
+
+
       <!--<section class="programa" id="programa">
         <table class="programacao">
           <tr>
@@ -515,7 +516,7 @@
           </div>
         </div>
       </div>
-  
+
       <div class="containerDia">
         <h1 class="dia">4 MARÇO</h1>
         <div class="manha">
@@ -737,65 +738,54 @@
           </div>
         </div>
       </div>
-  
-      <article class="parceiros" id="parceiros">
-        <article class="organizadoresParceirosGold">
+
+      <div class="parceiros" id="parceiros">
+        <div class="organizadoresParceirosGold">
           <section class="organizadores">
             <p>Organizadores</p>
-            <table>
-              <tr>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-              </tr>
-            </table>
+            <div class="logosDosOrganizadores">
+              <div>
+                <img src="" alt="empresa" />
+              </div>
+              <div>
+                <img src="" alt="empresa" />
+              </div>
+              <div>
+                <img src="" alt="empresa" />
+              </div>
+            </div>
           </section>
           <section class="parceirosGold">
             <p>Parceiros Gold</p>
-            <table>
-              <tr>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-              </tr>
-            </table>
+            <div class="logosDosOParceirosGold">
+              <div>
+                <img src="" alt="empresa" />
+              </div>
+              <div>
+                <img src="" alt="empresa" />
+              </div>
+              <div>
+                <img src="" alt="empresa" />
+              </div>
+            </div>
           </section>
-        </article>
+        </div>
         <section class="parceirosSilver">
           <p>Parceiros Silver</p>
-          <table></table>
+          <div class="logosDosParceirosSilver">
+            <div>
+              <img src="" alt="empresa" />
+            </div>
+            <div>
+              <img src="" alt="empresa" />
+            </div>
+            <div>
+              <img src="" alt="empresa" />
+            </div>
+          </div>
         </section>
-      </article>
-  
-      <article class="parceiros" id="parceiros">
-        <article class="organizadoresParceirosGold">
-          <section class="organizadores">
-            <p>Organizadores</p>
-            <table>
-              <tr>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-              </tr>
-            </table>
-          </section>
-          <section class="parceirosGold">
-            <p>Parceiros Gold</p>
-            <table>
-              <tr>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-                <td><img src="" alt="empresa" /></td>
-              </tr>
-            </table>
-          </section>
-        </article>
-        <section class="parceirosSilver">
-          <p>Parceiros Silver</p>
-          <table></table>
-        </section>
-      </article>
-  
+      </div>
+
       <article class="sobre" id="sobre">
         <section class="textoSobre">
           <h1>UM PEQUENO PASSO PARA O <b>FUTURO</b></h1>
@@ -822,40 +812,40 @@
   </main>
 
   <footer>
-    <div class="wrapper"> 
-    <section class="emailImagem">
-      <img src="" alt="email" />
-    </section>
-    <section class="emaiTexto">
-      <p><a href="">ipv@sc.ipv.pt</a></p>
-    </section>
-
-    <section class="telefoneImagem">
-      <img src="" alt="email" />
-    </section>
-    <section class="telefoneTexto">
-      <p>232 480 700</p>
-    </section>
-
-    <section class="localizacaoImagem">
-      <img src="" alt="email" />
-    </section>
-    <section class="localizacaoTexto">
-      <p><a href="">Av.Cor.José MAria Vale de Andrade</a></p>
-    </section>
-
-    <article class="redesSociaisLogos">
-      <section class="facebookLogo">
-        <img src="" alt="facebook" />
+    <div class="wrapper">
+      <section class="emailImagem">
+        <img src="" alt="email" />
       </section>
-      <section class="instagramLogo">
-        <img src="" alt="instagram" />
+      <section class="emaiTexto">
+        <p><a href="">ipv@sc.ipv.pt</a></p>
       </section>
-      <section class="youtubeLogo">
-        <img src="" alt="youtube" />
+
+      <section class="telefoneImagem">
+        <img src="" alt="email" />
       </section>
-    </article>
-  </div>
+      <section class="telefoneTexto">
+        <p>232 480 700</p>
+      </section>
+
+      <section class="localizacaoImagem">
+        <img src="" alt="email" />
+      </section>
+      <section class="localizacaoTexto">
+        <p><a href="">Av.Cor.José MAria Vale de Andrade</a></p>
+      </section>
+
+      <article class="redesSociaisLogos">
+        <section class="facebookLogo">
+          <img src="" alt="facebook" />
+        </section>
+        <section class="instagramLogo">
+          <img src="" alt="instagram" />
+        </section>
+        <section class="youtubeLogo">
+          <img src="" alt="youtube" />
+        </section>
+      </article>
+    </div>
   </footer>
 </body>
 
