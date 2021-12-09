@@ -263,3 +263,15 @@ h4{
   /*max-width: 386px;
   max-height: 160px;*/
 }
+
+.logosDosOrganizadores {
+  display: flex;
+}
+
+.logosDosOParceirosGold {
+  display: flex;
+}
+
+.logosDosParceirosSilver {
+  display: flex;
+}
