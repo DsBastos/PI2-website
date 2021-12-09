@@ -61,16 +61,16 @@ header .wrapper {
   padding: 71px 14%;
 }
 
-.logo {
+header .wrapper .logo {
   width: auto;
   height: 84px;
 } 
 
-.headerNavBar {
+header .wrapper .headerNavBar {
   width: 25%;
 }
 
-.headerNavBar li {
+header .wrapper .headerNavBar li {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
@@ -95,6 +95,21 @@ main .wrapper .containerFeiraDeEmprego {
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   width: 47%;
+}
+
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
+  font-size: 2.2em;
+  font-weight: normal;
+}
+
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h2 {
+  font-size: 2.2em;
+  font-weight: normal;
+}
+
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
+  font-size: 2.2em;
+  font-weight: normal;
 }
 
 main .wrapper .containerFeiraDeEmprego .imagemHeroi {
@@ -137,6 +152,26 @@ main .wrapper .containerParceiros .logosDosParceirosSilver {
   display: flex;
 }
 
+/*----------------SOBRE-------------------*/
+
+main .wrapper .containerSobre {
+  width: 100%;
+  display: flex;
+}
+
+main .wrapper .containerSobre .textoSobre {
+  width: 47%;
+}
+
+main .wrapper .containerSobre .textoSobre h1 {
+  font-size: 1.8em;
+  font-weight: normal;
+}
+
+main .wrapper .containerSobre .imagemSobre {
+  width: 47%;
+}
+
 /*-----------------------------FOOTER-------------------------------------------*/
 
 footer {
@@ -145,34 +180,31 @@ footer {
 
 footer > div.wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
-
   margin-left: 14%;
   margin-right: 14%;
-
   color: white
 }
 
-footer.wrapper .redesSociaisLogos {
+footer .wrapper .containerFooter {
+  width: 100%;
   display: flex;
 }
 
-h1 {
-  font-size: 2.2em;
-  font-weight: normal;
+footer .wrapper .containerEmail {
+  display: flex;
 }
-h2 {
-  font-size: 1.8em;
-  font-weight: normal;
+
+footer .wrapper .containerTelefone {
+  display: flex;
 }
-h3 {
-  font-size: 1.5em;
-  font-weight: bolder;
+
+footer .wrapper .containerLocalizacao {
+  display: flex;
 }
-h4{
-  font-size: 1em;
-  font-weight: normal;
+
+footer .wrapper .containerRedesSociais {
+  display: flex;
 }
 
 .textCenter {
