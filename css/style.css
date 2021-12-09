@@ -254,12 +254,12 @@ h4{
 }
 .cardVermelho {
   background-color: var(--vermelho);
-  max-width: 386px;
-  max-height: 160px;
+  /*max-width: 386px;
+  max-height: 160px;*/
 }
 
 .cardAzul {
   background-color: var(--azul);
-  max-width: 386px;
-  max-height: 160px;
+  /*max-width: 386px;
+  max-height: 160px;*/
 }
