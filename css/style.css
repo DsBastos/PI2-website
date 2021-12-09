@@ -48,6 +48,8 @@ body {
   background-color: #F2F2F2;
 }
 
+/*------------------------------HEADER------------------------------------------*/
+
 header .wrapper {
   width: 100%;
   height: 143px;
@@ -78,74 +80,64 @@ header .wrapper {
   text-align: right;
 }
 
+/*-------------------------------MAIN-----------------------------------------*/
+
+/*----------------feiraDeEmprego-------------------*/
+
 main .wrapper {
   margin-left: 14%;
   margin-right: 14%;
 }
 
-main .wrapper .sectionFeiraDeEmprego {
+main .wrapper .containerFeiraDeEmprego {
   display: flex;
 }
 
-main .wrapper .sectionFeiraDeEmprego .feiraDeEmprego {
-  width: 50%;
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
+  width: 47%;
 }
 
-main .wrapper .programa .programacao {
+main .wrapper .containerFeiraDeEmprego .imagemHeroi {
+  width: 47%;
+}
+
+/*----------------infoEvento-------------------*/
+
+main .wrapper .containerInfoEvento {
   width: 100%;
 }
 
-main .wrapper .programa .programacao tr,td {
-  border: 1px solid black;
-}
+/*----------------Parceiros-------------------*/
 
-main .wrapper .programa .programacao article {
+main .wrapper .containerParceiros .organizadoresParceirosGold {
   display: flex;
 }
 
-main .wrapper .programa .programacao article .programacaoHoras {
-  width: 30%;
+main .wrapper .containerParceiros .organizadoresParceirosGold .organizadores {
+  width: 47%;
 }
 
-main .wrapper .programa .programacao article .programacaoHoras h1 {
-  font-weight: bold;
-  font-size: 2.2em;
-  margin-left: 5%;
-}
-
-main .wrapper .programa .programacao article .programaTema {
-  width: 70%;
-}
-
-main .wrapper .programa .programacao article .programaTema h2 {
-  font-weight: 600;
-  font-size: 2em;
-}
-
-main .wrapper .programa .programacao article .programaTema h3 {
-  font-weight: 400;
-  font-size: 1.2em;
-}
-
-.textCenter {
-  text-align: center;
-}
-
-main .wrapper .parceiros .organizadoresParceirosGold {
+main .wrapper .containerParceiros .organizadores .logosDosOrganizadores {
   display: flex;
 }
 
-main .wrapper .parceiros .organizadoresParceirosGold .organizadores {
-  width: 50%;
+main .wrapper .containerParceiros .organizadoresParceirosGold .parceirosGold {
+  width: 47%;
 }
 
-main .wrapper .parceiros .organizadoresParceirosGold .parceirosGold {
-  width: 50%;
+main .wrapper .containerParceiros .organizadoresParceirosGold .logosDosOParceirosGold {
+  display: flex;
 }
 
-main .wrapper .parceiros .parceirosSilver {
+main .wrapper .containerParceiros .parceirosSilver {
 width: 100%;
 }
+
+main .wrapper .containerParceiros .logosDosParceirosSilver {
+  display: flex;
+}
+
+/*-----------------------------FOOTER-------------------------------------------*/
 
 footer {
   background-color: #707070;
@@ -166,76 +158,6 @@ footer.wrapper .redesSociaisLogos {
   display: flex;
 }
 
-table {
-  margin-bottom: 2%;
-}
-
-.tableEspacamento {
-  height: 10px;
-}
-
-
-.containerDia {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 10px 10px;
-  grid-template-areas:
-    "dia dia"
-    "manha tarde";
-  margin-bottom: 6%;
-}
-.dia {
-  grid-area: dia;
-  text-align: center;
-}
-
-.manha {
-  grid-area: manha;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 12px 12px;
-  grid-template-areas:
-    "manhaTarde manhaTarde"
-    "card1 card2"
-    "card3 card4"
-    "card5 card6"
-    "card7 card8";
-}
-
-.manhaTarde {
-  display: flex;
-  grid-area: manhaTarde;
-  align-items: center;
-  justify-content: center;
-
-}
-.tarde {
-  grid-area: tarde;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 12px 12px;
-  grid-template-areas:
-    "manhaTarde manhaTarde"
-    "card1 card2"
-    "card3 card4"
-    "card5 card6"
-    "card7 card8";
-}
-
-.card {
-  padding: 20px;
-  color: white;
-  /*display: grid;
-  grid-template-columns: 0.7fr 1.3fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "hora descricao";
-  gap: 4px 4px;*/
-
-}
-
 h1 {
   font-size: 2.2em;
   font-weight: normal;
@@ -252,26 +174,7 @@ h4{
   font-size: 1em;
   font-weight: normal;
 }
-.cardVermelho {
-  background-color: var(--vermelho);
-  /*max-width: 386px;
-  max-height: 160px;*/
-}
 
-.cardAzul {
-  background-color: var(--azul);
-  /*max-width: 386px;
-  max-height: 160px;*/
-}
-
-.logosDosOrganizadores {
-  display: flex;
-}
-
-.logosDosOParceirosGold {
-  display: flex;
-}
-
-.logosDosParceirosSilver {
-  display: flex;
+.textCenter {
+  text-align: center;
 }
