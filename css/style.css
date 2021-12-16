@@ -49,25 +49,33 @@ body {
 }
 
 /*------------------------------HEADER------------------------------------------*/
-
-header .wrapper {
+header.container {
   width: 100%;
   height: 143px;
-  background-color: #F2F2F2;
-  /*position: fixed;*/
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-  padding: 71px 14%;
 }
 
-header .wrapper .logo {
+header .wrapper {
+  width: 75%;
+  margin: 0 14%;
+  background-color: #F2F2F2;
+}
+
+header .wrapper .logoImagem {
+  display: inline-block;
+}
+
+header .wrapper .logoImagem .logo {
   width: auto;
   height: 84px;
 } 
 
+header .wrapper .navbar {
+  display: inline-block;
+  width: 75%;
+}
+
 header .wrapper .headerNavBar {
-  width: 25%;
+  width: 100%;
 }
 
 header .wrapper .headerNavBar li {
@@ -152,7 +160,7 @@ main .wrapper .containerParceiros .logosDosParceirosSilver {
   display: flex;
 }
 
-/*----------------SOBRE-------------------*/
+/*----------------sobre-------------------*/
 
 main .wrapper .containerSobre {
   width: 100%;
