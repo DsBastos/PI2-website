@@ -52,40 +52,40 @@ body {
 header.container {
   width: 100%;
   height: 143px;
-}
-
-header .wrapper {
-  width: 75%;
-  margin: 0 14%;
   background-color: #F2F2F2;
 }
 
-header .wrapper .logoImagem {
+header.container .wrapper {
+  width: 75%;
+  margin: 0 14%;
+  padding-top: 1.5%;
+}
+
+header.container .wrapper .logoImagem {
   display: inline-block;
 }
 
-header .wrapper .logoImagem .logo {
+header.container .wrapper .logoImagem .logo {
   width: auto;
   height: 84px;
 } 
 
-header .wrapper .navbar {
+header.container .wrapper .navbar {
   display: inline-block;
-  width: 75%;
+  width: 93%;
+  text-align: right;
 }
 
-header .wrapper .headerNavBar {
+header.container .wrapper .headerNavBar {
   width: 100%;
 }
 
-header .wrapper .headerNavBar li {
+header.container .wrapper .headerNavBar li {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
   color: black;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: right;
+  margin-left: 5%;
 }
 
 /*-------------------------------MAIN-----------------------------------------*/
