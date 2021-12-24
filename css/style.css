@@ -63,6 +63,8 @@ header.container .wrapper {
 
 header.container .wrapper .logoImagem {
   display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
 header.container .wrapper .logoImagem .logo {
@@ -72,8 +74,9 @@ header.container .wrapper .logoImagem .logo {
 
 header.container .wrapper .navbar {
   display: inline-block;
-  width: 93%;
   text-align: right;
+  width: 93%;
+  vertical-align: middle;
 }
 
 header.container .wrapper .headerNavBar {
@@ -98,11 +101,13 @@ main .wrapper {
 }
 
 main .wrapper .containerFeiraDeEmprego {
-  display: flex;
+  
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   width: 47%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
@@ -122,6 +127,8 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
 
 main .wrapper .containerFeiraDeEmprego .imagemHeroi {
   width: 47%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /*----------------infoEvento-------------------*/
