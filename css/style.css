@@ -77,7 +77,6 @@ header.container .wrapper .navbar {
   display: inline-block;
   text-align: right;
   width: 93%;
-  vertical-align: middle;
 }
 
 header.container .wrapper .headerNavBar {
@@ -96,7 +95,6 @@ header.container .wrapper .headerNavBar li {
 /*-------------------------------MAIN-----------------------------------------*/
 
 /*----------------feiraDeEmprego-------------------*/
-
 main .wrapper {
   margin-left: 14%;
   margin-right: 14%;
@@ -114,18 +112,23 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
-  font-size: 2.2em;
+  font-size: 5.2em;
   font-weight: normal;
+}
+
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 span {
+  font-weight: 600;
+  color: #b11c2a;
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h2 {
-  font-size: 2.2em;
-  font-weight: normal;
+  font-size: 2.1em;
+  font-weight: 300;
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
-  font-size: 2.2em;
-  font-weight: normal;
+  font-size: 1.8em;
+  font-weight: 200;
 }
 
 main .wrapper .containerFeiraDeEmprego .imagemHeroi {
