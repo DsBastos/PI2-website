@@ -141,6 +141,14 @@ main .wrapper .containerFeiraDeEmprego .imagemHeroi {
 
 main .wrapper .containerInfoEvento {
   width: 100%;
+  height: 300px;
+  background-color: #0091a4;
+  color: white;
+}
+
+main .wrapper .containerInfoEvento p:first-child {
+  padding-top: 10%;
+  margin-bottom: 3%;
 }
 
 /*----------------Parceiros-------------------*/
@@ -200,7 +208,6 @@ footer {
 }
 
 footer > div.wrapper {
-  display: flex;
   align-items: center;
   margin-left: 14%;
   margin-right: 14%;
@@ -209,24 +216,85 @@ footer > div.wrapper {
 
 footer .wrapper .containerFooter {
   width: 100%;
-  display: flex;
 }
 
-footer .wrapper .containerEmail {
-  display: flex;
+footer .wrapper .containerFooter .containerEmail {
+  display: inline-block;
+  width: 17%;
 }
 
-footer .wrapper .containerTelefone {
-  display: flex;
+footer .wrapper .containerFooter .containerEmail .emailImagem {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: 25px;
 }
 
-footer .wrapper .containerLocalizacao {
-  display: flex;
+footer .wrapper .containerFooter .containerEmail .emailTexto {
+  display: inline-block;
 }
 
-footer .wrapper .containerRedesSociais {
-  display: flex;
+footer .wrapper .containerFooter .containerTelefone {
+  display: inline-block;
+  width: 17%;
 }
+
+footer .wrapper .containerFooter .containerTelefone .telefoneImagem {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: 25px;
+}
+
+footer .wrapper .containerFooter .containerTelefone .telefoneTexto {
+  display: inline-block;
+}
+
+footer .wrapper .containerFooter .containerLocalizacao {
+  display: inline-block;
+  width: 17%;
+}
+
+footer .wrapper .containerFooter .containerLocalizacao .localizacaoImagem {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: 25px;
+}
+
+footer .wrapper .containerFooter .containerLocalizacao .localizacaoTexto {
+  display: inline-block;
+}
+
+
+
+
+footer .wrapper .containerFooter .containerRedesSociais {
+  display: inline-block;
+  width: 45%;
+}
+
+footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
+  width: auto;
+  height: 25px;
+  display: inline-block;
+}
+
+footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais .facebookLogo {
+  display: inline-block;
+  width: 100%;
+}
+
+footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais .instagramLogo {
+  display: inline-block;
+  width: 100%;
+}
+
+footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais .youtubeLogo {
+  display: inline-block;
+  width: 100%;
+}
+
 
 .textCenter {
   text-align: center;
