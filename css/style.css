@@ -44,11 +44,12 @@ textarea {
 }
 
 /*-----------------------------------------------------------------------------------*/
+
 /*margin 14%*/
 body {
   font-family: "Poppins", sans-serif, Arial, Helvetica;
   background-color: #f2f2f2;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /*------------------------------HEADER------------------------------------------*/
@@ -208,9 +209,10 @@ main .wrapper .containerSobre .imagemSobre {
 
 footer {
   background-color: #515151;
-  clear: both;
-  position: relative;
-  margin-top: 100px;
+position: relative;
+margin-top: 100px;
+bottom: 0;
+ 
 }
 
 footer > div.wrapper {
