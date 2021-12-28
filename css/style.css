@@ -280,11 +280,11 @@ footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
 }
 
 footer
-  .wrapper
-  .containerFooter
-  .containerRedesSociais
-  .wrapperRedesSociais
-  .youtubeLogo,
+.wrapper
+.containerFooter
+.containerRedesSociais
+.wrapperRedesSociais
+.youtubeLogo,
 .instagramLogo,
 .facebookLogo {
   display: inline-block;
