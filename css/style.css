@@ -2,57 +2,60 @@
 
 /* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
 *:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
-    all: unset;
-    display: revert;
-  }
-  
-  /* Preferred box-sizing value */
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
+  all: unset;
+  display: revert;
+}
 
-  :root{
-    --vermelho: #b11c2a;
-    --azul: #0091a4;
-  }
-  
-  /*
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --vermelho: #b11c2a;
+  --azul: #0091a4;
+  --branco: #fff;
+}
+
+/*
     Remove list styles (bullets/numbers)
     in case you use it with normalize.css
   */
-  ol, ul {
-    list-style: none;
-  }
-  
-  /* For images to not be able to exceed their wrapper */
-  img {
-    max-width: 100%;
-  }
-  
-  /* Removes spacing between cells in tables */
-  table {
-    border-collapse: collapse;
-  }
-  
-  /* Revert the 'white-space' property for textarea elements on Safari */
-  textarea {
-    white-space: revert;
-  }
+ol,
+ul {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their wrapper */
+img {
+  max-width: 100%;
+}
+
+/* Removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*margin 14%*/
 body {
-  font-family: 'Poppins', sans-serif, Arial, Helvetica;
-  background-color: #F2F2F2;
+  font-family: "Poppins", sans-serif, Arial, Helvetica;
+  background-color: #f2f2f2;
+  min-height: 100%;
 }
 
 /*------------------------------HEADER------------------------------------------*/
 header.container {
   width: 100%;
   height: 143px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   position: fixed;
 }
 
@@ -71,7 +74,7 @@ header.container .wrapper .logoImagem {
 header.container .wrapper .logoImagem .logo {
   width: auto;
   height: 84px;
-} 
+}
 
 header.container .wrapper .navbar {
   display: inline-block;
@@ -99,10 +102,6 @@ main .wrapper {
   margin-left: 14%;
   margin-right: 14%;
   padding-top: 143px;
-}
-
-main .wrapper .containerFeiraDeEmprego {
-  
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
@@ -169,12 +168,16 @@ main .wrapper .containerParceiros .organizadoresParceirosGold .parceirosGold {
   width: 47%;
 }
 
-main .wrapper .containerParceiros .organizadoresParceirosGold .logosDosOParceirosGold {
+main
+  .wrapper
+  .containerParceiros
+  .organizadoresParceirosGold
+  .logosDosOParceirosGold {
   display: flex;
 }
 
 main .wrapper .containerParceiros .parceirosSilver {
-width: 100%;
+  width: 100%;
 }
 
 main .wrapper .containerParceiros .logosDosParceirosSilver {
@@ -204,23 +207,24 @@ main .wrapper .containerSobre .imagemSobre {
 /*-----------------------------FOOTER-------------------------------------------*/
 
 footer {
-  background-color: #707070;
+  background-color: #515151;
+  clear: both;
+  position: relative;
+  margin-top: 100px;
 }
 
 footer > div.wrapper {
   align-items: center;
   margin-left: 14%;
   margin-right: 14%;
-  color: white
+  color: white;
 }
 
 footer .wrapper .containerFooter {
   width: 100%;
-}
-
-footer .wrapper .containerFooter .containerEmail {
-  display: inline-block;
-  width: 17%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
 }
 
 footer .wrapper .containerFooter .containerEmail .emailImagem {
@@ -232,11 +236,6 @@ footer .wrapper .containerFooter .containerEmail .emailImagem {
 
 footer .wrapper .containerFooter .containerEmail .emailTexto {
   display: inline-block;
-}
-
-footer .wrapper .containerFooter .containerTelefone {
-  display: inline-block;
-  width: 17%;
 }
 
 footer .wrapper .containerFooter .containerTelefone .telefoneImagem {
@@ -252,7 +251,6 @@ footer .wrapper .containerFooter .containerTelefone .telefoneTexto {
 
 footer .wrapper .containerFooter .containerLocalizacao {
   display: inline-block;
-  width: 17%;
 }
 
 footer .wrapper .containerFooter .containerLocalizacao .localizacaoImagem {
@@ -266,12 +264,12 @@ footer .wrapper .containerFooter .containerLocalizacao .localizacaoTexto {
   display: inline-block;
 }
 
-
-
-
-footer .wrapper .containerFooter .containerRedesSociais {
+.containerEmail,
+.containerTelefone,
+.containerLocalizacao,
+.containerRedesSociais {
   display: inline-block;
-  width: 45%;
+  padding: 20px;
 }
 
 footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
@@ -280,22 +278,40 @@ footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
   display: inline-block;
 }
 
-footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais .facebookLogo {
+footer
+  .wrapper
+  .containerFooter
+  .containerRedesSociais
+  .wrapperRedesSociais
+  .youtubeLogo,
+.instagramLogo,
+.facebookLogo {
   display: inline-block;
   width: 100%;
 }
 
-footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais .instagramLogo {
-  display: inline-block;
-  width: 100%;
+.containerFooter {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais .youtubeLogo {
-  display: inline-block;
-  width: 100%;
+.containerRedesSociais {
+  vertical-align: top;
 }
 
+.wrapperRedesSociais {
+  padding: 5px;
+}
+
+.containerRedesSociais img {
+  width: 20px;
+}
 
 .textCenter {
   text-align: center;
+}
+
+.simboloFooter{
+  width: 50px;
+  margin: 10px;
 }
