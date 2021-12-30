@@ -230,13 +230,12 @@ main .wrapper .containerSobre .imagemSobre {
 
 footer {
   background-color: #515151;
-position: relative;
-margin-top: 100px;
-bottom: 0;
+  position: relative;
+  margin-top: 3.5%;
+  /*bottom: 0;*/
 }
 
 footer > div.wrapper {
-  align-items: center;
   margin-left: 14%;
   margin-right: 14%;
   color: white;
@@ -244,45 +243,83 @@ footer > div.wrapper {
 
 footer .wrapper .containerFooter {
   width: 100%;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 4.2%;
+  padding-bottom: 4.2%;
   text-align: center;
 }
 
-footer .wrapper .containerFooter .containerEmail .emailImagem {
+footer .wrapper .containerFooter .containerContacto {
+  padding-bottom: 2%;
+}
+
+footer 
+.wrapper 
+.containerFooter 
+.containerContacto
+.containerEmail 
+.emailImagem {
   display: inline-block;
   vertical-align: middle;
   width: auto;
   height: 25px;
 }
 
-footer .wrapper .containerFooter .containerEmail .emailTexto {
+footer 
+.wrapper 
+.containerFooter 
+.containerContacto
+.containerEmail 
+.emailTexto {
   display: inline-block;
 }
 
-footer .wrapper .containerFooter .containerTelefone .telefoneImagem {
-  display: inline-block;
-  vertical-align: middle;
-  width: auto;
-  height: 25px;
-}
-
-footer .wrapper .containerFooter .containerTelefone .telefoneTexto {
-  display: inline-block;
-}
-
-footer .wrapper .containerFooter .containerLocalizacao {
-  display: inline-block;
-}
-
-footer .wrapper .containerFooter .containerLocalizacao .localizacaoImagem {
+footer 
+.wrapper 
+.containerFooter
+.containerContacto
+.containerTelefone 
+.telefoneImagem {
   display: inline-block;
   vertical-align: middle;
   width: auto;
   height: 25px;
 }
 
-footer .wrapper .containerFooter .containerLocalizacao .localizacaoTexto {
+footer 
+.wrapper 
+.containerFooter 
+.containerContacto
+.containerTelefone 
+.telefoneTexto {
+  display: inline-block;
+}
+
+footer 
+.wrapper 
+.containerFooter
+.containerContacto
+.containerLocalizacao {
+  display: inline-block;
+}
+
+footer 
+.wrapper 
+.containerFooter 
+.containerContacto
+.containerLocalizacao 
+.localizacaoImagem {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: 25px;
+}
+
+footer 
+.wrapper 
+.containerFooter 
+.containerContacto
+.containerLocalizacao 
+.localizacaoTexto {
   display: inline-block;
 }
 
@@ -291,34 +328,34 @@ footer .wrapper .containerFooter .containerLocalizacao .localizacaoTexto {
 .containerLocalizacao,
 .containerRedesSociais {
   display: inline-block;
-  padding: 20px;
+  padding: 0 2% 0 2%;/*top, right, bottom, left*/
 }
 
-footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
+footer 
+.wrapper 
+.containerFooter 
+.containerRedesSociais 
+.wrapperRedesSociais {
   width: auto;
   height: 25px;
   display: inline-block;
 }
 
 footer
-  .wrapper
-  .containerFooter
-  .containerRedesSociais
-  .wrapperRedesSociais
-  .youtubeLogo,
+.wrapper
+.containerFooter
+.containerRedesSociais
+.wrapperRedesSociais
+.youtubeLogo,
 .instagramLogo,
 .facebookLogo {
   display: inline-block;
-  width: 100%;
-}
-
-.containerFooter {
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
+  height: 25px;
 }
 
 .containerRedesSociais {
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .wrapperRedesSociais {
@@ -329,11 +366,22 @@ footer
   width: 20px;
 }
 
-.textCenter {
-  text-align: center;
-}
-
+footer 
+.wrapper
+.containerFooter
 .simboloFooter{
   width: 50px;
-  margin: 10px;
+  margin: 1%;
+}
+
+footer 
+.wrapper
+.containerFooter
+.containerTermos {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.textCenter {
+  text-align: center;
 }
