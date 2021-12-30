@@ -44,6 +44,9 @@ textarea {
 }
 
 /*-----------------------------------------------------------------------------------*/
+html{
+  scroll-behavior: smooth;
+}
 
 /*margin 14%*/
 body {
@@ -97,6 +100,24 @@ header.container .wrapper .headerNavBar li {
 }
 
 /*-------------------------------MAIN-----------------------------------------*/
+
+.top{
+  position:fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 2;
+}
+
+.imgGoTopOutline{
+  background-image: url("../imagens/scroll-up-50-outline.png");
+  width: 50px;
+  height: 50px;
+}
+.goTopfull{
+  background-image: url("../imagens/scroll-up-50-full.png");
+  width: 50px;
+  height: 50px;
+}
 
 /*----------------feiraDeEmprego-------------------*/
 main .wrapper {
