@@ -61,6 +61,7 @@ header.container {
   height: 143px;
   background-color: #f2f2f2;
   position: fixed;
+  z-index: 2;
 }
 
 header.container .wrapper {
@@ -124,6 +125,8 @@ main .wrapper {
   margin-left: 14%;
   margin-right: 14%;
   padding-top: 143px;
+  position: relative;
+  z-index: 1;
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
@@ -171,6 +174,9 @@ main .containerInfoEvento {
   height: 500px;
   background-color: #0091a4;
   color: white;
+  position: sticky;
+  top: 143px;
+  z-index: 0;
 }
 /*----------------Parceiros-------------------*/
 
@@ -179,37 +185,46 @@ main .containerTrianguloParceiros {
   border-right: 759px solid transparent;
   border-left: 759px solid transparent;
   margin-top: -10%;
+  position: relative;
+  z-index: 1;
 }
 
-main .wrapper .containerParceiros .organizadoresParceirosGold {
+main .containerParceiros {
+  width: 100%;
+  height: 500px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+main .containerParceiros .wrapper .organizadoresParceirosGold {
   display: flex;
 }
 
-main .wrapper .containerParceiros .organizadoresParceirosGold .organizadores {
+main .containerParceiros .wrapper .organizadoresParceirosGold .organizadores {
   width: 47%;
 }
 
-main .wrapper .containerParceiros .organizadores .logosDosOrganizadores {
+main .containerParceiros .wrapper .organizadores .logosDosOrganizadores {
   display: flex;
 }
 
-main .wrapper .containerParceiros .organizadoresParceirosGold .parceirosGold {
+main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   width: 47%;
 }
 
 main
-.wrapper
 .containerParceiros
+.wrapper
 .organizadoresParceirosGold
 .logosDosOParceirosGold {
   display: flex;
 }
 
-main .wrapper .containerParceiros .parceirosSilver {
+main .containerParceiros .wrapper .parceirosSilver {
   width: 100%;
 }
 
-main .wrapper .containerParceiros .logosDosParceirosSilver {
+main .containerParceiros .wrapper .logosDosParceirosSilver {
   display: flex;
 }
 
