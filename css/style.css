@@ -160,15 +160,26 @@ main .wrapper .containerFeiraDeEmprego .imagemHeroi {
 
 /*----------------infoEvento-------------------*/
 
+main .containerTrianguloInfoEvento {
+  border-bottom: 139px solid #0091a4;
+  border-right: 759px solid transparent;
+  border-left: 759px solid transparent;
+}
+
 main .containerInfoEvento {
   width: 100%;
-  height: 300px;
+  height: 500px;
   background-color: #0091a4;
   color: white;
-  margin-top: 15%;
-  position: sticky;
 }
 /*----------------Parceiros-------------------*/
+
+main .containerTrianguloParceiros {
+  border-bottom: 152px solid #f2f2f2;
+  border-right: 759px solid transparent;
+  border-left: 759px solid transparent;
+  margin-top: -10%;
+}
 
 main .wrapper .containerParceiros .organizadoresParceirosGold {
   display: flex;
