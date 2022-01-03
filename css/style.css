@@ -14,9 +14,11 @@
 }
 
 :root {
-  --vermelho: #b11c2a;
-  --azul: #0091a4;
-  --branco: #fff;
+  --body-background-color: rgb(242, 242, 242);
+  --vermelho: rgb(177, 28, 42);
+  --vermelhoHoverEffect: rgba(177, 28, 42, 0.8);
+  --azul: rgb(0, 145, 164);
+  --footer: rgb(81, 81, 81);
 }
 
 /*
@@ -44,14 +46,14 @@ textarea {
 }
 
 /*-----------------------------------------------------------------------------------*/
-html{
+html {
   scroll-behavior: smooth;
 }
 
 /*margin 14%*/
 body {
   font-family: "Poppins", sans-serif, Arial, Helvetica;
-  background-color: #f2f2f2;
+  background-color: var(--body-background-color);
   min-height: 100vh;
 }
 
@@ -59,7 +61,7 @@ body {
 header.container {
   width: 100%;
   height: 143px;
-  background-color: #f2f2f2;
+  background-color: var(--body-background-color);
   position: fixed;
   z-index: 2;
 }
@@ -102,29 +104,11 @@ header.container .wrapper .headerNavBar li {
 
 /*-------------------------------MAIN-----------------------------------------*/
 
-.top{
-  position:fixed;
-  bottom: 40px;
-  right: 40px;
-  z-index: 2;
-}
-
-.imgGoTopOutline{
-  background-image: url("../imagens/scroll-up-50-outline.png");
-  width: 50px;
-  height: 50px;
-}
-.goTopfull{
-  background-image: url("../imagens/scroll-up-50-full.png");
-  width: 50px;
-  height: 50px;
-}
-
 /*----------------feiraDeEmprego-------------------*/
 main .wrapper {
   margin-left: 14%;
   margin-right: 14%;
-  padding-top: 143px;
+  padding-top: 20vh;
   position: relative;
   z-index: 1;
 }
@@ -133,6 +117,7 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
+  padding-bottom: 15vh;
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
@@ -142,7 +127,7 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 span {
   font-weight: 600;
-  color: #b11c2a;
+  color: var(--vermelho);
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h2 {
@@ -163,36 +148,44 @@ main .wrapper .containerFeiraDeEmprego .imagemHeroi {
 
 /*----------------infoEvento-------------------*/
 
-main .containerTrianguloInfoEvento {
-  border-bottom: 139px solid #0091a4;
-  border-right: 759px solid transparent;
-  border-left: 759px solid transparent;
-}
-
 main .containerInfoEvento {
   width: 100%;
-  height: 500px;
-  background-color: #0091a4;
+  padding-top: 5vh;
+  padding-bottom: 18vh;
+  background-color: var(--azul);
   color: white;
   position: sticky;
-  top: 143px;
-  z-index: 0;
+}
+
+main .containerInfoEvento::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 9vw solid var(--azul);
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
+}
+
+main .wrapperInfoEventoParceiros {
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-bottom: 2vh;
+  position: relative;
 }
 /*----------------Parceiros-------------------*/
-
-main .containerTrianguloParceiros {
-  border-bottom: 152px solid #f2f2f2;
-  border-right: 759px solid transparent;
-  border-left: 759px solid transparent;
-  margin-top: -10%;
-  position: relative;
-  z-index: 1;
+main .containerParceiros::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 9vw solid var(--body-background-color);
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
 }
 
 main .containerParceiros {
   width: 100%;
   height: 500px;
-  background-color: #f2f2f2;
+  background-color: var(--body-background-color);
   position: relative;
 }
 
@@ -213,10 +206,10 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
 }
 
 main
-.containerParceiros
-.wrapper
-.organizadoresParceirosGold
-.logosDosOParceirosGold {
+  .containerParceiros
+  .wrapper
+  .organizadoresParceirosGold
+  .logosDosOParceirosGold {
   display: flex;
 }
 
@@ -251,10 +244,9 @@ main .wrapper .containerSobre .imagemSobre {
 /*-----------------------------FOOTER-------------------------------------------*/
 
 footer {
-  background-color: #515151;
+  background-color: var(--footer);
   position: relative;
   margin-top: 3.5%;
-  /*bottom: 0;*/
 }
 
 footer > div.wrapper {
@@ -274,74 +266,70 @@ footer .wrapper .containerFooter .containerContacto {
   padding-bottom: 2%;
 }
 
-footer 
-.wrapper 
-.containerFooter 
-.containerContacto
-.containerEmail 
-.emailImagem {
+footer
+  .wrapper
+  .containerFooter
+  .containerContacto
+  .containerEmail
+  .emailImagem {
   display: inline-block;
   vertical-align: middle;
   width: auto;
   height: 25px;
 }
 
-footer 
-.wrapper 
-.containerFooter 
-.containerContacto
-.containerEmail 
-.emailTexto {
+footer
+  .wrapper
+  .containerFooter
+  .containerContacto
+  .containerEmail
+  .emailTexto {
   display: inline-block;
 }
 
-footer 
-.wrapper 
-.containerFooter
-.containerContacto
-.containerTelefone 
-.telefoneImagem {
-  display: inline-block;
-  vertical-align: middle;
-  width: auto;
-  height: 25px;
-}
-
-footer 
-.wrapper 
-.containerFooter 
-.containerContacto
-.containerTelefone 
-.telefoneTexto {
-  display: inline-block;
-}
-
-footer 
-.wrapper 
-.containerFooter
-.containerContacto
-.containerLocalizacao {
-  display: inline-block;
-}
-
-footer 
-.wrapper 
-.containerFooter 
-.containerContacto
-.containerLocalizacao 
-.localizacaoImagem {
+footer
+  .wrapper
+  .containerFooter
+  .containerContacto
+  .containerTelefone
+  .telefoneImagem {
   display: inline-block;
   vertical-align: middle;
   width: auto;
   height: 25px;
 }
 
-footer 
-.wrapper 
-.containerFooter 
-.containerContacto
-.containerLocalizacao 
-.localizacaoTexto {
+footer
+  .wrapper
+  .containerFooter
+  .containerContacto
+  .containerTelefone
+  .telefoneTexto {
+  display: inline-block;
+}
+
+footer .wrapper .containerFooter .containerContacto .containerLocalizacao {
+  display: inline-block;
+}
+
+footer
+  .wrapper
+  .containerFooter
+  .containerContacto
+  .containerLocalizacao
+  .localizacaoImagem {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: 25px;
+}
+
+footer
+  .wrapper
+  .containerFooter
+  .containerContacto
+  .containerLocalizacao
+  .localizacaoTexto {
   display: inline-block;
 }
 
@@ -350,25 +338,21 @@ footer
 .containerLocalizacao,
 .containerRedesSociais {
   display: inline-block;
-  padding: 0 2% 0 2%;/*top, right, bottom, left*/
+  padding: 0 2% 0 2%; /*top, right, bottom, left*/
 }
 
-footer 
-.wrapper 
-.containerFooter 
-.containerRedesSociais 
-.wrapperRedesSociais {
+footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
   width: auto;
   height: 25px;
   display: inline-block;
 }
 
 footer
-.wrapper
-.containerFooter
-.containerRedesSociais
-.wrapperRedesSociais
-.youtubeLogo,
+  .wrapper
+  .containerFooter
+  .containerRedesSociais
+  .wrapperRedesSociais
+  .youtubeLogo,
 .instagramLogo,
 .facebookLogo {
   display: inline-block;
@@ -388,22 +372,51 @@ footer
   width: 20px;
 }
 
-footer 
-.wrapper
-.containerFooter
-.simboloFooter{
+footer .wrapper .containerFooter .simboloFooter {
   width: 50px;
   margin: 1%;
 }
 
+<<<<<<< HEAD
 footer 
 .wrapper
 .containerFooter
 .containerTermos {
   font-size: 10px;
+=======
+footer .wrapper .containerFooter .containerTermos {
+  font-size: 10px;
+>>>>>>> 3658516e9c021b3f38ed691feb51efaca7e1f6c0
   font-weight: 200;
 }
 
 .textCenter {
   text-align: center;
+}
+
+/*================== SCROLL UP ==================*/
+.scrollUp {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--vermelho);
+  opacity: 0.8rem;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: 2;
+  transition: 0.4s;
+}
+
+.scrollUp:hover {
+  background-color: var(--vermelhoHoverEffect);
+}
+
+.scrollUp__icon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Show scroll */
+.show-scroll {
+  bottom: 2rem;
 }
