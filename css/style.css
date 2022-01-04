@@ -113,34 +113,34 @@ main .wrapper {
   z-index: 1;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
+.containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
   padding-bottom: 15vh;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
+.feiraDeEmpregoDataLocal h1 {
   font-size: 5.2em;
   font-weight: normal;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 span {
+.feiraDeEmpregoDataLocal h1 span {
   font-weight: 600;
   color: var(--vermelho);
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h2 {
+.feiraDeEmpregoDataLocal h2 {
   font-size: 2.1em;
   font-weight: 300;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
+.feiraDeEmpregoDataLocal h3 {
   font-size: 1.8em;
   font-weight: 200;
 }
 
-.containerFeiraDeEmprego .imagemHeroi {
+.imagemHeroi {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
