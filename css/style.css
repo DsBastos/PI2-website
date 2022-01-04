@@ -113,34 +113,38 @@ main .wrapper {
   z-index: 1;
 }
 
-.containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
-  width: 47%;
-  display: inline-block;
-  vertical-align: middle;
+main .wrapper .containerFeiraDeEmprego {
+  width: 100%;
   padding-bottom: 15vh;
 }
 
-.feiraDeEmpregoDataLocal h1 {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
+  width: 47%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
   font-size: 5.2em;
   font-weight: normal;
 }
 
-.feiraDeEmpregoDataLocal h1 span {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 span {
   font-weight: 600;
   color: var(--vermelho);
 }
 
-.feiraDeEmpregoDataLocal h2 {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h2 {
   font-size: 2.1em;
   font-weight: 300;
 }
 
-.feiraDeEmpregoDataLocal h3 {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
   font-size: 1.8em;
   font-weight: 200;
 }
 
-.imagemHeroi {
+main .wrapper .containerFeiraDeEmprego .imagemHeroi {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
@@ -162,8 +166,8 @@ main .containerInfoEvento::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--azul);
-  border-right: 49.4vw solid transparent;
-  border-left: 49.4vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
 }
 
 main .wrapperInfoEventoParceiros {
@@ -178,14 +182,15 @@ main .containerParceiros::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 49.4vw solid transparent;
-  border-left: 49.4vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
 }
 
 main .containerParceiros {
-  position: relative;
   width: 100%;
+  height: 500px;
   background-color: var(--body-background-color);
+  position: relative;
 }
 
 main .containerParceiros .wrapper .organizadoresParceirosGold {
@@ -204,9 +209,9 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   width: 47%;
 }
 
-.organizadores{
+.organizadores {
   padding-top: 150px;
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .parceirosGold {
@@ -229,10 +234,10 @@ main .containerParceiros .wrapper .parceirosSilver {
   padding-bottom: 100px;
 }
 
-
 main .containerParceiros .wrapper .logosDosParceirosSilver {
   display: flex;
 }
+/*----------------programa----------------*/
 
 /*----------------sobre-------------------*/
 
@@ -241,13 +246,12 @@ main .wrapper .containerSobre {
   display: flex;
 }
 
-.textoSobre{
+.textoSobre {
   margin-left: 14%;
   margin-right: 14%;
   padding-bottom: 2vh;
   position: relative;
 }
-
 
 main .wrapper .containerSobre .textoSobre {
   width: 47%;
@@ -262,7 +266,7 @@ main .wrapper .containerSobre .imagemSobre {
   width: 47%;
 }
 
-.containerparceiros{
+.containerparceiros {
   margin-left: 150px;
 }
 
@@ -270,7 +274,7 @@ main .wrapper .containerSobre .imagemSobre {
 
 footer {
   background-color: var(--footer);
-  position: relative;
+  position:relative;
   margin-bottom: 0;
 }
 
@@ -403,11 +407,10 @@ footer .wrapper .containerFooter .simboloFooter {
 }
 
 footer .wrapper .containerFooter .containerTermos {
- 
   font-weight: 200;
 }
 
-.footer-texto-privacidade-direitos{
+.footer-texto-privacidade-direitos {
   font-size: 12px;
 }
 
