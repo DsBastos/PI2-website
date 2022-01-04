@@ -162,8 +162,8 @@ main .containerInfoEvento::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--azul);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  border-left: 49.4vw solid transparent;
 }
 
 main .wrapperInfoEventoParceiros {
@@ -178,15 +178,14 @@ main .containerParceiros::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  border-left: 49.4vw solid transparent;
 }
 
 main .containerParceiros {
-  width: 100%;
-  height: 500px;
-  background-color: var(--body-background-color);
   position: relative;
+  width: 100%;
+  background-color: var(--body-background-color);
 }
 
 main .containerParceiros .wrapper .organizadoresParceirosGold {
