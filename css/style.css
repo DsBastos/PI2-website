@@ -113,34 +113,34 @@ main .wrapper {
   z-index: 1;
 }
 
-.feiraDeEmpregoDataLocal {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
   padding-bottom: 15vh;
 }
 
-.feiraDeEmpregoDataLocal h1 {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
   font-size: 5.2em;
   font-weight: normal;
 }
 
-.feiraDeEmpregoDataLocal h1 span {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 span {
   font-weight: 600;
   color: var(--vermelho);
 }
 
-.feiraDeEmpregoDataLocal h2 {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h2 {
   font-size: 2.1em;
   font-weight: 300;
 }
 
-.feiraDeEmpregoDataLocal h3 {
+main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
   font-size: 1.8em;
   font-weight: 200;
 }
 
-.containerFeiraDeEmprego .imagemHeroi {
+main .wrapper .containerFeiraDeEmprego .imagemHeroi {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
@@ -151,7 +151,7 @@ main .wrapper {
 main .containerInfoEvento {
   width: 100%;
   padding-top: 5vh;
-  padding-bottom: 24vh;
+  padding-bottom: 18vh;
   background-color: var(--azul);
   color: white;
   position: sticky;
@@ -162,13 +162,14 @@ main .containerInfoEvento::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--azul);
-  border-right:  49.4140625vw solid transparent;
-  border-left:  49.4140625vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
 }
 
 main .wrapperInfoEventoParceiros {
   margin-left: 14%;
   margin-right: 14%;
+  padding-bottom: 2vh;
   position: relative;
 }
 /*----------------Parceiros-------------------*/
@@ -177,8 +178,8 @@ main .containerParceiros::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 49.4140625vw solid transparent;
-  border-left: 49.4140625vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
 }
 
 main .containerParceiros {
@@ -192,7 +193,7 @@ main .containerParceiros .wrapper .organizadoresParceirosGold {
   display: flex;
 }
 
-.organizadoresParceirosGold .organizadores {
+main .containerParceiros .wrapper .organizadoresParceirosGold .organizadores {
   width: 47%;
 }
 
@@ -402,8 +403,18 @@ footer .wrapper .containerFooter .simboloFooter {
   margin: 1%;
 }
 
+<<<<<<< HEAD
+footer 
+.wrapper
+.containerFooter
+.containerTermos {
+
+}
+  
+=======
 footer .wrapper .containerFooter .containerTermos {
  
+>>>>>>> 3658516e9c021b3f38ed691feb51efaca7e1f6c0
   font-weight: 200;
 }
 
