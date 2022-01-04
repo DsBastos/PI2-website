@@ -303,7 +303,6 @@ footer
   display: inline-block;
   vertical-align: middle;
   width: 25px;
-
 }
 
 footer
@@ -324,7 +323,6 @@ footer
   display: inline-block;
   vertical-align: middle;
   width: 25px;
-
 }
 
 footer
@@ -349,7 +347,6 @@ footer
   display: inline-block;
   vertical-align: middle;
   width: 25px;
-
 }
 
 footer
@@ -359,7 +356,6 @@ footer
   .containerLocalizacao
   .localizacaoTexto {
   display: inline-block;
- 
 }
 
 .containerEmail,
@@ -369,7 +365,6 @@ footer
   display: inline-block;
   padding: 0 2% 0 2%; /*top, right, bottom, left*/
 }
-
 
 footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
   width: auto;
@@ -418,7 +413,6 @@ footer .wrapper .containerFooter .containerTermos {
 .textCenter {
   text-align: center;
 }
-
 
 /*================== SCROLL UP ==================*/
 .scrollUp {
