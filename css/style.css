@@ -113,14 +113,22 @@ main .wrapper {
   z-index: 1;
 }
 
+main .wrapper .containerFeiraDeEmprego {
+  width: 100%;
+  padding-bottom: 15vh;
+}
+
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
-  padding-bottom: 15vh;
 }
 
+<<<<<<< HEAD
 .feiraDeEmpregoDataLocal h1 {
+=======
+.feiraDeEmpregoDataLocal h1 {
+>>>>>>> 5cfafc1b4f3a5a198a6b1016d69951c97f267d71
   font-size: 5.2em;
   font-weight: normal;
 }
@@ -151,7 +159,7 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
 main .containerInfoEvento {
   width: 100%;
   padding-top: 5vh;
-  padding-bottom: 18vh;
+  padding-bottom: 24vh;
   background-color: var(--azul);
   color: white;
   position: sticky;
@@ -162,14 +170,13 @@ main .containerInfoEvento::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--azul);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right:  49.4140625vw solid transparent;
+  border-left:  49.4140625vw solid transparent;
 }
 
 main .wrapperInfoEventoParceiros {
   margin-left: 14%;
   margin-right: 14%;
-  padding-bottom: 2vh;
   position: relative;
 }
 /*----------------Parceiros-------------------*/
@@ -178,8 +185,8 @@ main .containerParceiros::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right: 49.4140625vw solid transparent;
+  border-left: 49.4140625vw solid transparent;
 }
 
 main .containerParceiros {
@@ -193,7 +200,7 @@ main .containerParceiros .wrapper .organizadoresParceirosGold {
   display: flex;
 }
 
-main .containerParceiros .wrapper .organizadoresParceirosGold .organizadores {
+.organizadoresParceirosGold .organizadores {
   width: 47%;
 }
 
@@ -205,9 +212,9 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   width: 47%;
 }
 
-.organizadores{
+.organizadores {
   padding-top: 150px;
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .parceirosGold {
@@ -230,7 +237,6 @@ main .containerParceiros .wrapper .parceirosSilver {
   padding-bottom: 100px;
 }
 
-
 main .containerParceiros .wrapper .logosDosParceirosSilver {
   display: flex;
 }
@@ -242,13 +248,12 @@ main .wrapper .containerSobre {
   display: flex;
 }
 
-.textoSobre{
+.textoSobre {
   margin-left: 14%;
   margin-right: 14%;
   padding-bottom: 2vh;
   position: relative;
 }
-
 
 main .wrapper .containerSobre .textoSobre {
   width: 47%;
@@ -263,7 +268,7 @@ main .wrapper .containerSobre .imagemSobre {
   width: 47%;
 }
 
-.containerparceiros{
+.containerparceiros {
   margin-left: 150px;
 }
 
@@ -403,22 +408,11 @@ footer .wrapper .containerFooter .simboloFooter {
   margin: 1%;
 }
 
-<<<<<<< HEAD
-footer 
-.wrapper
-.containerFooter
-.containerTermos {
-
-}
-  
-=======
 footer .wrapper .containerFooter .containerTermos {
- 
->>>>>>> 3658516e9c021b3f38ed691feb51efaca7e1f6c0
   font-weight: 200;
 }
 
-.footer-texto-privacidade-direitos{
+.footer-texto-privacidade-direitos {
   font-size: 12px;
 }
 
