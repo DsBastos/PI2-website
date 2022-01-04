@@ -236,7 +236,7 @@ main .containerParceiros .wrapper .parceirosSilver {
 }
 
 .parceirosSilver {
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 main .containerParceiros .wrapper .logosDosParceirosSilver {
@@ -262,6 +262,10 @@ main .wrapper .containerSobre {
 .textoSobre h1 {
   font-size: 1.8em;
   font-weight: normal;
+}
+
+.textoSobre p{
+  padding-bottom: 200px;
 }
 
 .imagemSobre {
