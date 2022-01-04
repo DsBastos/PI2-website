@@ -113,11 +113,15 @@ main .wrapper {
   z-index: 1;
 }
 
+main .wrapper .containerFeiraDeEmprego {
+  width: 100%;
+  padding-bottom: 15vh;
+}
+
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
-  padding-bottom: 15vh;
 }
 
 main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
