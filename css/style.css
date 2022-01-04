@@ -140,7 +140,7 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
   font-weight: 200;
 }
 
-main .wrapper .containerFeiraDeEmprego .imagemHeroi {
+.containerFeiraDeEmprego .imagemHeroi {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
@@ -403,18 +403,8 @@ footer .wrapper .containerFooter .simboloFooter {
   margin: 1%;
 }
 
-<<<<<<< HEAD
-footer 
-.wrapper
-.containerFooter
-.containerTermos {
-
-}
-  
-=======
 footer .wrapper .containerFooter .containerTermos {
  
->>>>>>> 3658516e9c021b3f38ed691feb51efaca7e1f6c0
   font-weight: 200;
 }
 
