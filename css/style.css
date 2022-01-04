@@ -78,22 +78,22 @@ header.container .wrapper .logoImagem {
   vertical-align: middle;
 }
 
-header.container .wrapper .logoImagem .logo {
+.logoImagem .logo {
   width: auto;
   height: 84px;
 }
 
-header.container .wrapper .navbar {
+.navbar {
   display: inline-block;
   text-align: right;
   width: 93%;
 }
 
-header.container .wrapper .headerNavBar {
+.headerNavBar {
   width: 100%;
 }
 
-header.container .wrapper .headerNavBar li {
+.headerNavBar li {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
@@ -124,27 +124,27 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   vertical-align: middle;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
+.feiraDeEmpregoDataLocal h1 {
   font-size: 5.2em;
   font-weight: normal;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 span {
+.feiraDeEmpregoDataLocal h1 span {
   font-weight: 600;
   color: var(--vermelho);
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h2 {
+.feiraDeEmpregoDataLocal h2 {
   font-size: 2.1em;
   font-weight: 300;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h3 {
+.feiraDeEmpregoDataLocal h3 {
   font-size: 1.8em;
   font-weight: 200;
 }
 
-main .wrapper .containerFeiraDeEmprego .imagemHeroi {
+.containerFeiraDeEmprego .imagemHeroi {
   width: 47%;
   display: inline-block;
   vertical-align: middle;
@@ -250,18 +250,15 @@ main .wrapper .containerSobre {
   margin-right: 14%;
   padding-bottom: 2vh;
   position: relative;
-}
-
-main .wrapper .containerSobre .textoSobre {
   width: 47%;
 }
 
-main .wrapper .containerSobre .textoSobre h1 {
+.textoSobre h1 {
   font-size: 1.8em;
   font-weight: normal;
 }
 
-main .wrapper .containerSobre .imagemSobre {
+.imagemSobre {
   width: 47%;
 }
 
@@ -273,7 +270,7 @@ main .wrapper .containerSobre .imagemSobre {
 
 footer {
   background-color: var(--footer);
-  position:relative;
+  position: relative;
   margin-bottom: 0;
 }
 
