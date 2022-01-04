@@ -124,7 +124,7 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
   vertical-align: middle;
 }
 
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal h1 {
+feiraDeEmpregoDataLocal h1 {
   font-size: 5.2em;
   font-weight: normal;
 }
@@ -155,7 +155,7 @@ main .wrapper .containerFeiraDeEmprego .imagemHeroi {
 main .containerInfoEvento {
   width: 100%;
   padding-top: 5vh;
-  padding-bottom: 18vh;
+  padding-bottom: 24vh;
   background-color: var(--azul);
   color: white;
   position: sticky;
@@ -166,14 +166,13 @@ main .containerInfoEvento::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--azul);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right:  49.4140625vw solid transparent;
+  border-left:  49.4140625vw solid transparent;
 }
 
 main .wrapperInfoEventoParceiros {
   margin-left: 14%;
   margin-right: 14%;
-  padding-bottom: 2vh;
   position: relative;
 }
 /*----------------Parceiros-------------------*/
@@ -182,8 +181,8 @@ main .containerParceiros::before {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right: 49.4140625vw solid transparent;
+  border-left: 49.4140625vw solid transparent;
 }
 
 main .containerParceiros {
@@ -197,7 +196,7 @@ main .containerParceiros .wrapper .organizadoresParceirosGold {
   display: flex;
 }
 
-main .containerParceiros .wrapper .organizadoresParceirosGold .organizadores {
+.organizadoresParceirosGold .organizadores {
   width: 47%;
 }
 
