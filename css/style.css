@@ -205,9 +205,9 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   width: 47%;
 }
 
-.organizadores{
+.organizadores {
   padding-top: 150px;
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .parceirosGold {
@@ -230,7 +230,6 @@ main .containerParceiros .wrapper .parceirosSilver {
   padding-bottom: 100px;
 }
 
-
 main .containerParceiros .wrapper .logosDosParceirosSilver {
   display: flex;
 }
@@ -242,13 +241,12 @@ main .wrapper .containerSobre {
   display: flex;
 }
 
-.textoSobre{
+.textoSobre {
   margin-left: 14%;
   margin-right: 14%;
   padding-bottom: 2vh;
   position: relative;
 }
-
 
 main .wrapper .containerSobre .textoSobre {
   width: 47%;
@@ -263,7 +261,7 @@ main .wrapper .containerSobre .imagemSobre {
   width: 47%;
 }
 
-.containerparceiros{
+.containerparceiros {
   margin-left: 150px;
 }
 
@@ -403,22 +401,11 @@ footer .wrapper .containerFooter .simboloFooter {
   margin: 1%;
 }
 
-<<<<<<< HEAD
-footer 
-.wrapper
-.containerFooter
-.containerTermos {
-
-}
-  
-=======
 footer .wrapper .containerFooter .containerTermos {
- 
->>>>>>> 3658516e9c021b3f38ed691feb51efaca7e1f6c0
   font-weight: 200;
 }
 
-.footer-texto-privacidade-direitos{
+.footer-texto-privacidade-direitos {
   font-size: 12px;
 }
 
