@@ -142,6 +142,7 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
 .feiraDeEmpregoDataLocal h3 {
   font-size: 1.8em;
   font-weight: 200;
+  padding-bottom: 150px;
 }
 
 .containerFeiraDeEmprego .imagemHeroi {
@@ -157,6 +158,7 @@ main .containerInfoEvento {
   padding-top: 5vh;
   padding-bottom: 18vh;
   background-color: var(--azul);
+  height: 550px;
   color: white;
   position: sticky;
 }
@@ -168,6 +170,10 @@ main .containerInfoEvento::before {
   border-bottom: 9vw solid var(--azul);
   border-right: 50vw solid transparent;
   border-left: 50vw solid transparent;
+}
+
+.infoEventoTexto{
+  padding-top: 64px;
 }
 
 main .wrapperInfoEventoParceiros {
