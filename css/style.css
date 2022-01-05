@@ -187,6 +187,21 @@ main .wrapperInfoEventoParceiros {
 }
 
 /*----------------Parceiros-------------------*/
+.containerPrograma{
+  height: 125px;
+  width: 175px;
+  background-color: var(--vermelho);
+}
+
+.ProgramaCartaoHora{
+  display: inline-block;
+}
+
+.ProgramaCartaoInfo{
+  display: inline-block;
+  vertical-align: text-top;
+}
+
 main .containerParceiros::before {
   content: "";
   position: absolute;
