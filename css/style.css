@@ -93,8 +93,19 @@ header.container .wrapper .logoImagem {
   width: 100%;
 }
 
-ul li {
+ul{
+  position: relative;
+}
 
+.centerHeight{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+ul li {
+  
   float:right;
   padding:10px;
   margin-left:5px;
