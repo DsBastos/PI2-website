@@ -93,13 +93,12 @@ header.container .wrapper .logoImagem {
   width: 100%;
 }
 
-.headerNavBar li {
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 500;
-  color: black;
-  margin-left: 5%;
-  cursor: pointer;
+ul li {
+
+  float:right;
+  padding:10px;
+  margin-left:5px;
+  
 }
 
 .scrollDown {
@@ -108,6 +107,7 @@ header.container .wrapper .logoImagem {
   background-color: red;
   margin: auto;
 }
+
 
 /*-------------------------------MAIN-----------------------------------------*/
 
