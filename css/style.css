@@ -183,6 +183,7 @@ ul li {
   position: sticky;
   top: 19vh;
   z-index: 1;
+  text-align: justify;
 }
 
 /*triangulo*/
@@ -373,34 +374,40 @@ ul li {
 
 /*----------------sobre-------------------*/
 
-main .wrapper .containerSobre {
+.containerSobre {
   width: 100%;
-  display: flex;
+  height: 100vh;
+  background-color: var(--body-background-color);
+  padding-top: 20vh;
+  position: relative;
+  z-index: 2;
 }
 
 .textoSobre {
-  margin-left: 14%;
-  margin-right: 14%;
-  padding-bottom: 2vh;
-  position: relative;
+  display: inline-block;
   width: 47%;
+  vertical-align: middle;
 }
 
 .textoSobre h1 {
   font-size: 1.8em;
-  font-weight: normal;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+.textoSobre h1 span {
+  color: var(--azul);
 }
 
 .textoSobre p {
   padding-bottom: 200px;
+  text-align: justify;
+  line-height: 1.8;
 }
 
 .imagemSobre {
+  display: inline-block;
   width: 47%;
-}
-
-.containerparceiros {
-  margin-left: 150px;
 }
 
 /*-----------------------------FOOTER-------------------------------------------*/
