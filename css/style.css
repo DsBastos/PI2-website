@@ -104,12 +104,6 @@ ul li {
   transform: translateY(5%);
 }
 
-.scrollDown {
-  width: 10vh;
-  margin: auto;
-  right: 1rem;
-}
-
 /*-------------------------------MAIN-----------------------------------------*/
 
 /*----------------feiraDeEmprego-------------------*/
@@ -122,6 +116,8 @@ ul li {
   margin-left: 14%;
   margin-right: 14%;
   padding-top: 20vh;
+  position: sticky;
+  top: 0vh;
 }
 
 .containerFeiraDeEmprego {
@@ -166,6 +162,13 @@ ul li {
   /*height: 94%;*/
   display: inline-block;
   vertical-align: middle;
+}
+
+.scrollDown {
+  width: 10vh;
+  margin: auto;
+  right: 1rem;
+  opacity: 0.3;
 }
 
 /*----------------infoEvento-------------------*/
