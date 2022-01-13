@@ -213,6 +213,7 @@ ul li {
   z-index: 2;
   color: white;
   background-color: var(--body-background-color);
+  padding-top: 20vh;
 }
 
 /*triangulo*/
@@ -322,6 +323,7 @@ ul li {
 }
 
 /*----------------Parceiros-------------------*/
+
 .containerParceiros {
   width: 100%;
   background-color: var(--body-background-color);
@@ -338,6 +340,11 @@ ul li {
 
 .organizadores .logosDosOrganizadores div {
   display: inline-block;
+  margin-right: 20%;
+}
+
+.organizadores .logosDosOrganizadores div:last-of-type {
+  margin-right: 0;
 }
 
 .parceirosGold {
@@ -349,6 +356,11 @@ ul li {
 
 .parceirosGold .logosDosParceirosGold div {
   display: inline-block;
+  margin-right: 20%;
+}
+
+.parceirosGold .logosDosParceirosGold div:last-of-type {
+  margin-right: 0;
 }
 
 .parceirosSilver {
@@ -567,6 +579,10 @@ footer .wrapper .containerFooter .containerTermos {
 a.scrollUp img {
   padding-top: 0.5rem;
   width: 2rem;
+}
+
+a {
+  cursor: pointer;
 }
 
 /*================== Media Querys ==================*/
