@@ -322,56 +322,41 @@ ul li {
 }
 
 /*----------------Parceiros-------------------*/
-main .containerParceiros {
+.containerParceiros {
   width: 100%;
   background-color: var(--body-background-color);
   position: relative;
   z-index: 2;
 }
 
-main .containerParceiros .wrapper .organizadoresParceirosGold {
-  display: flex;
-}
-
-main .containerParceiros .wrapper .organizadoresParceirosGold .organizadores {
-  width: 47%;
-}
-
-main .containerParceiros .wrapper .organizadores .logosDosOrganizadores {
-  display: flex;
-}
-
-main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
-  width: 47%;
-}
-
 .organizadores {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  display: inline-block;
+  width: 47%;
+  padding-top: 20vh;
+  padding-bottom: 13vh;
+}
+
+.organizadores .logosDosOrganizadores div {
+  display: inline-block;
 }
 
 .parceirosGold {
-  padding-bottom: 100px;
+  display: inline-block;
+  width: 47%;
+  padding-top: 20vh;
+  padding-bottom: 13vh;
 }
 
-main
-  .containerParceiros
-  .wrapper
-  .organizadoresParceirosGold
-  .logosDosOParceirosGold {
-  display: flex;
-}
-
-main .containerParceiros .wrapper .parceirosSilver {
-  width: 100%;
+.parceirosGold .logosDosParceirosGold div {
+  display: inline-block;
 }
 
 .parceirosSilver {
-  padding-bottom: 200px;
+  padding-bottom: 26vh;
 }
 
-main .containerParceiros .wrapper .logosDosParceirosSilver {
-  display: flex;
+.parceirosSilver .logosDosParceirosSilver div {
+  display: inline-block;
 }
 
 /*----------------sobre-------------------*/
