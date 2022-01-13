@@ -418,109 +418,69 @@ footer {
   margin-bottom: 0;
 }
 
-footer > div.wrapper {
+footer .wrapper {
   margin-left: 14%;
   margin-right: 14%;
   color: white;
 }
 
-footer .wrapper .containerFooter {
+.containerFooter {
   width: 100%;
   padding-top: 3.2%;
   padding-bottom: 2.2%;
   text-align: center;
 }
 
-footer .wrapper .containerFooter .containerContacto {
+.containerContacto {
   padding-bottom: 2%;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerEmail
-  .emailImagem {
+.emailImagem {
   display: inline-block;
   vertical-align: middle;
   width: 25px;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerEmail
-  .emailTexto {
+.emailTexto {
   display: inline-block;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerTelefone
-  .telefoneImagem {
+.telefoneImagem {
   display: inline-block;
   vertical-align: middle;
   width: 25px;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerTelefone
-  .telefoneTexto {
+.telefoneTexto {
   display: inline-block;
 }
 
-footer .wrapper .containerFooter .containerContacto .containerLocalizacao {
+.containerLocalizacao {
   display: inline-block;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerLocalizacao
-  .localizacaoImagem {
+.localizacaoImagem {
   display: inline-block;
   vertical-align: middle;
   width: 25px;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerLocalizacao
-  .localizacaoTexto {
+.localizacaoTexto {
   display: inline-block;
 }
 
-.containerEmail,
-.containerTelefone,
-.containerLocalizacao,
-.containerRedesSociais {
+.containerEmail, .containerTelefone, .containerLocalizacao, .containerRedesSociais {
   display: inline-block;
   padding: 0 2% 0 2%; /*top, right, bottom, left*/
 }
 
-footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
+.wrapperRedesSociais {
   width: auto;
   height: 25px;
   display: inline-block;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerRedesSociais
-  .wrapperRedesSociais
-  .youtubeLogo,
-.instagramLogo,
-.facebookLogo {
+.youtubeLogo, .instagramLogo, .facebookLogo {
   display: inline-block;
   width: auto;
   height: 25px;
@@ -538,18 +498,20 @@ footer
   width: 20px;
 }
 
-footer .wrapper .containerFooter .simboloFooter {
+.simboloFooter {
   width: 50px;
   margin: 1%;
 }
 
-footer .wrapper .containerFooter .containerTermos {
+.containerTermos {
   font-weight: 200;
 }
 
 .footer-texto-privacidade-direitos {
   font-size: 12px;
 }
+
+/*------------------------------------------------*/
 
 .textCenter {
   text-align: center;
