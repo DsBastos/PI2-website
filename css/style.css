@@ -395,6 +395,12 @@ li a:hover {
   z-index: 2;
 }
 
+.containerParceiros p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4vh;
+}
+
 .organizadores {
   display: inline-block;
   width: 47%;
@@ -433,6 +439,12 @@ li a:hover {
 
 .parceirosSilver .logosDosParceirosSilver div {
   display: inline-block;
+  margin-right: 6.8vw;
+}
+
+.parceirosSilver .logosDosParceirosSilver div:last-of-type {
+  display: inline-block;
+  margin-right: 0;
 }
 
 /*----------------sobre-------------------*/
@@ -449,7 +461,7 @@ li a:hover {
 .textoSobre {
   display: inline-block;
   width: 47%;
-  vertical-align: middle;
+  margin-right: 3%;
 }
 
 .textoSobre h1 {
@@ -470,7 +482,7 @@ li a:hover {
 
 .imagemSobre {
   display: inline-block;
-  width: 47%;
+  width: 40%;
 }
 
 /*-----------------------------FOOTER-------------------------------------------*/
