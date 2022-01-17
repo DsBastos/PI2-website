@@ -136,7 +136,7 @@ li a:hover {
 
 .containerFeiraDeEmprego {
   width: 100%;
-  height: 90vh;
+  height: 93vh;
   padding-bottom: 20vh;
   position: relative;
   z-index: 0;
@@ -179,7 +179,7 @@ li a:hover {
 }
 
 .scrollDown {
-  width: 10vh;
+  width: 7vh;
   margin: auto;
   right: 1rem;
   opacity: 0.3;
