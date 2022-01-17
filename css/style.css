@@ -250,7 +250,14 @@ li a:hover {
   margin-bottom: 7%;
 }
 
-.alturaDoDia {
+.alturaDoDiaTarde {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.alturaDoDiaManhaTarde {
   width: 100%;
   color: #000;
   font-size: 22px;
@@ -269,7 +276,7 @@ li a:hover {
   text-align: center;
 }
 
-.programaPrimeiraLinha {
+.programaLinha {
   width: 100%;
 }
 
@@ -284,7 +291,22 @@ li a:hover {
   width: 47%;
   background-color: var(--vermelho);
   display: inline-block;
+  margin-bottom: 4%;
 }
+
+.programaColunaCentro {
+  width: 47%;
+  margin: auto;
+}
+
+.programaColunaCentro .containerCartoes {
+  height: 17vh;
+  width: 47%;
+  background-color: var(--azul);
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
 
 .programaColunaDireita {
   display: inline-block;
@@ -297,6 +319,11 @@ li a:hover {
   width: 47%;
   background-color: var(--azul);
   display: inline-block;
+  margin-bottom: 4%;
+}
+
+.programaColunaCentro .containerCartoes:last-of-type {
+  margin-left: 3.19%;
 }
 
 .programaColunaEsquerda .containerCartoes:last-of-type {
