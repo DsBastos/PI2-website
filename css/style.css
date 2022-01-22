@@ -386,6 +386,15 @@ li a:hover {
   font-weight: 16px;
 }
 
+/*----------------Workshop-------------------*/
+.containerWorkshop {
+  width: 100%;
+  background-color: var(--body-background-color);
+  position: relative;
+  z-index: 2;
+}
+
+
 /*----------------Parceiros-------------------*/
 
 .containerParceiros {
@@ -483,6 +492,14 @@ li a:hover {
 .imagemSobre {
   display: inline-block;
   width: 40%;
+}
+
+/*----------------Contactos-------------------*/
+.containerContactos {
+  width: 100%;
+  background-color: var(--body-background-color);
+  position: relative;
+  z-index: 2;
 }
 
 /*-----------------------------FOOTER-------------------------------------------*/
