@@ -101,10 +101,6 @@ header.container {
   margin-left: 1rem;
 }
 
-.headerNavBar {
-  width: 100%;
-}
-
 ul li {
   float: right;
   padding: 10px;
@@ -113,9 +109,28 @@ ul li {
   font-weight: 500;
 }
 
-
 li a:hover {
   color: var(--azul);
+}
+
+/*----------------subMenu-------------------*/
+
+.subMenu {
+  position: relative;
+}
+
+.subMenu ul {
+  display: none;
+  position: absolute;
+  width: 116%;
+}
+
+.subMenu ul li {
+  display: block;
+}
+
+.subMenu:hover ul {
+  display: block;
 }
 
 /*-------------------------------MAIN-----------------------------------------*/
