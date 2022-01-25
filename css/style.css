@@ -431,7 +431,7 @@ main .wrapper {
   margin-right: 20%;
 }
 
-.parceirosGold .logosDosParceirosGold div:last-of-type {
+.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver  div:last-of-type {
   margin-right: 0;
 }
 
@@ -440,10 +440,7 @@ main .wrapper {
   margin-right: 6.8vw;
 }
 
-.parceirosSilver .logosDosParceirosSilver div:last-of-type {
-  display: inline-block;
-  margin-right: 0;
-}
+
 
 /*----------------sobre-------------------*/
 
