@@ -261,13 +261,13 @@ main .wrapper {
 }
 
 .manha {
-  width: 47%;
+  width: 49%;
   display: inline-block;
   text-align: center;
 }
 
 .tarde {
-  width: 47%;
+  width: 49%;
   display: inline-block;
   text-align: center;
 }
@@ -278,111 +278,109 @@ main .wrapper {
 
 .programaColunaEsquerda {
   display: inline-block;
-  width: 47%;
-  margin-right: 4%;
+  width: 49%;
   margin-bottom: 4%;
 }
 
 .programaColunaEsquerda .containerCartoes {
   height: 17vh;
-  width: 47%;
+  width: 49%;
   background-color: var(--vermelho);
   display: inline-block;
 }
 
 .programaColunaCentroManha {
-  width: 47%;
+  width: 49%;
   margin: auto;
   margin-bottom: 4%;
 }
 
 .programaColunaCentroManha .containerCartoes {
   height: 17vh;
-  width: 47%;
+  width: 49%;
   background-color: var(--azul);
   display: inline-block;
 }
 
 .programaColunaCentroTarde {
-  width: 47%;
+  width: 49%;
   margin: auto;
   margin-bottom: 4%;
 }
 
 .programaColunaCentroTarde .containerCartoes {
   height: 17vh;
-  width: 47%;
+  width: 49%;
   background-color: var(--vermelho);
   display: inline-block;
 }
 
 .programaColunaDireita {
   display: inline-block;
-  width: 47%;
-  margin-left: 1.6%;
+  width: 49%;
   margin-bottom: 4%;
 }
 
 .programaColunaDireita .containerCartoes {
   height: 17vh;
-  width: 47%;
+  width: 49%;
   background-color: var(--azul);
   display: inline-block;
 }
 
 .programaColunaCentroManha .containerCartoes:last-of-type {
-  margin-left: 3.19%;
   float: right;
 }
 
 .programaColunaCentroTarde .containerCartoes:last-of-type {
-  margin-left: 3.19%;
   float: right;
 }
 
 .programaColunaEsquerda .containerCartoes:last-of-type {
-  margin-left: 3.19%;
   float: right;
 }
 
 .programaColunaDireita .containerCartoes:last-of-type {
-  margin-left: 3.19%;
   float: right;
 }
 
 .wrapperCartoes {
   margin-top: 5%;
-  margin-left: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .programaCartaoHora {
   display: inline-block;
   vertical-align: text-top;
+  padding-right: 2%;
 }
 
 .programaCartaoHora h1 {
   font-weight: 700;
   font-size: 28px;
+  padding-right: 2%;
 }
 
 .programaCartaoInfo {
   display: inline-block;
   vertical-align: text-top;
+  padding-top: 1.5%;
 }
 
 .programaCartaoInfo h2 {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .programaCartaoInfo span.nomeEmpresa {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.125rem;
 }
 
 .programaCartaoInfo span.nomeApelido {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 
