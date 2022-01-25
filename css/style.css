@@ -533,7 +533,7 @@ footer .wrapper {
   width: 25px;
 }
 
-.containerEmail, .containerTelefone, .containerLocalizacao, .containerRedesSociais {
+.containerFooter {
   display: inline-block;
   padding: 0 2% 0 2%; /*top, right, bottom, left*/
   vertical-align: middle;
