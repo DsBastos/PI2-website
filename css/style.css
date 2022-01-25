@@ -426,7 +426,7 @@ main .wrapper {
   padding-bottom: 13vh;
 }
 
-.parceirosGold .logosDosParceirosGold div {
+.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver div {
   display: inline-block;
   margin-right: 20%;
 }
@@ -434,13 +434,6 @@ main .wrapper {
 .parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver  div:last-of-type {
   margin-right: 0;
 }
-
-.parceirosSilver .logosDosParceirosSilver div {
-  display: inline-block;
-  margin-right: 6.8vw;
-}
-
-
 
 /*----------------sobre-------------------*/
 
