@@ -50,7 +50,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*margin 14%*/
+/*margin 9%*/
 body {
   font-family: "Poppins", sans-serif, Arial, Helvetica;
   background-color: var(--body-background-color);
@@ -66,8 +66,8 @@ header.container {
 }
 
 header .wrapper {
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 9%;
+  margin-right: 9%;
   padding-top: 2.5%;
   padding-bottom: 1%;
 }
@@ -113,8 +113,8 @@ li a:hover {
 
 /*----------------feiraDeEmprego-------------------*/
 main .wrapper {
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .containerFeiraDeEmprego {
@@ -497,8 +497,8 @@ footer {
 }
 
 footer .wrapper {
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .containerFooter {
