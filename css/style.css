@@ -117,11 +117,6 @@ main .wrapper {
   margin-right: 14%;
 }
 
-.wrapperFeiraDeEmprego {
-  margin-left: 14%;
-  margin-right: 14%;
-}
-
 .containerFeiraDeEmprego {
   width: 100%;
   height: 113vh;
@@ -170,8 +165,7 @@ main .wrapper {
 }
 
 .imagemHeroi {
-  width: 47%;
-  /*height: 94%;*/
+  width: 50%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -179,7 +173,6 @@ main .wrapper {
 .scrollDown {
   width: 7vh;
   margin: auto;
-  right: 1rem;
   opacity: 0.3;
 }
 
@@ -188,7 +181,6 @@ main .wrapper {
 .containerInfoEvento {
   width: 100%;
   padding-top: 20vh;
-  /*padding-bottom: 18vh;*/
   background-color: var(--azul);
   height: 85vh;
   color: white;
