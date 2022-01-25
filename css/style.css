@@ -308,6 +308,11 @@ main .wrapper {
   margin: auto;
 }
 
+.programaUltimaLinha {
+  padding-bottom: 10%;
+}
+
+
 .programaColunaCentroManha .containerCartoes {
   height: 17vh;
   width: 47%;
@@ -405,12 +410,14 @@ main .wrapper {
   background-color: var(--body-background-color);
   position: relative;
   z-index: 2;
+  color: #000;
 }
 
 .containerParceiros p {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 4vh;
+  color: #000;
 }
 
 .organizadores {
@@ -474,22 +481,26 @@ main .wrapper {
   display: inline-block;
   width: 47%;
   margin-right: 3%;
+  color: #000;
 }
 
 .textoSobre h1 {
   font-size: 1.8em;
   font-weight: 600;
   margin-bottom: 5%;
+  color: #000;
 }
 
 .textoSobre h1 span {
   color: var(--azul);
+  
 }
 
 .textoSobre p {
   padding-bottom: 200px;
   text-align: justify;
   line-height: 1.8;
+  color: #000;
 }
 
 .imagemSobre {
