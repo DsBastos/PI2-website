@@ -416,7 +416,7 @@ main .wrapper {
   margin-right: 20%;
 }
 
-.organizadores .logosDosOrganizadores div:last-of-type {
+.organizadores .logosDosOrganizadores div:last-of-type,  .parceirosGold .logosDosParceirosGold div:last-of-type{
   margin-right: 0;
 }
 
@@ -426,13 +426,14 @@ main .wrapper {
   padding-bottom: 13vh;
 }
 
-.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver div {
+.parceirosGold .logosDosParceirosGold div, .parceirosSilver .logosDosParceirosSilver div {
   display: inline-block;
   margin-right: 20%;
 }
 
-.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver  div:last-of-type {
-  margin-right: 0;
+.parceirosSilver .logosDosParceirosSilver div {
+  display: inline-block;
+  margin-right: 6.8vw;
 }
 
 /*----------------sobre-------------------*/
