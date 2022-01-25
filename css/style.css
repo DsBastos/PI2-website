@@ -484,16 +484,6 @@ main .wrapper {
   width: 40%;
 }
 
-/*----------------Contactos-------------------*/
-
-.containerContactos {
-  width: 100%;
-  background-color: var(--body-background-color);
-  position: relative;
-  z-index: 2;
-  padding-top: 20vh;
-}
-
 /*-----------------------------FOOTER-------------------------------------------*/
 
 footer {
