@@ -503,10 +503,6 @@ footer .wrapper {
   text-align: center;
 }
 
-.containerContacto {
-  padding-bottom: 2%;
-}
-
 .emailImagem {
   display: inline-block;
   vertical-align: middle;
@@ -537,10 +533,11 @@ footer .wrapper {
   width: 25px;
 }
 
-
 .containerEmail, .containerTelefone, .containerLocalizacao, .containerRedesSociais {
   display: inline-block;
   padding: 0 2% 0 2%; /*top, right, bottom, left*/
+  vertical-align: middle;
+
 }
 
 .wrapperRedesSociais {
@@ -554,10 +551,6 @@ footer .wrapper {
   display: inline-block;
   width: auto;
   height: 25px;
-}
-
-.containerRedesSociais {
-  vertical-align: middle;
 }
 
 .containerRedesSociais img {
