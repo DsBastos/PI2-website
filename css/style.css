@@ -108,9 +108,15 @@ header.container .wrapper .logoImagem {
 main .wrapper {
   margin-left: 14%;
   margin-right: 14%;
+}
+
+.containerFeiraDeEmprego {
+  width: 100%;
   padding-top: 20vh;
-  position: relative;
-  z-index: 1;
+  padding-bottom: 17vh;
+  position: sticky;
+  top: 0;
+  z-index: 0;
 }
 
 main .wrapper .containerFeiraDeEmprego {
@@ -158,10 +164,9 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
 
 main .containerInfoEvento {
   width: 100%;
-  padding-top: 5vh;
-  padding-bottom: 18vh;
+  height: 85vh;
+  padding-top: 20vh;
   background-color: var(--azul);
-  height: 550px;
   color: white;
   position: sticky;
 }
@@ -184,6 +189,11 @@ main .wrapperInfoEventoParceiros {
   margin-right: 14%;
   padding-bottom: 2vh;
   position: relative;
+  z-index: 2;
+  color: white;
+  background-color: var(--body-background-color);
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
 /*----------------Parceiros-------------------*/
@@ -211,14 +221,172 @@ main .containerParceiros::before {
   border-left: 50vw solid transparent;
 }
 
-main .containerParceiros {
+.diaDoAno {
+  color: #000;
+  width: 100%;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3.5%;
+  margin-top: 17%;
+}
+
+.diaDoAno:first-of-type {
+  margin-top: 0;
+  margin-bottom: 7%;
+}
+
+.alturaDoDia {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.alturaDoDiaManhaTarde {
+  width: 100%;
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 4%;
+}
+
+.manha {
+  width: 47%;
+  display: inline-block;
+  text-align: center;
+}
+
+.tarde {
+  width: 47%;
+  display: inline-block;
+  text-align: center;
+}
+
+.programaLinha {
+  width: 100%;
+}
+
+.programaColunaEsquerda {
+  display: inline-block;
+  width: 47%;
+  margin-right: 4%;
+}
+
+.programaColunaEsquerda .containerCartoes {
+  height: 17vh;
+  width: 47%;
+  background-color: var(--vermelho);
+  display: inline-block;
+  margin-bottom: 4%;
+  
+}
+
+.programaColunaCentroManha {
+  width: 47%;
+  margin: auto;
+}
+
+.programaColunaCentroManha .containerCartoes {
+  height: 17vh;
+  width: 47%;
+  background-color: var(--azul);
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.programaColunaCentroTarde {
+  width: 47%;
+  margin: auto;
+}
+
+.programaColunaCentroTarde .containerCartoes {
+  height: 17vh;
+  width: 47%;
+  background-color: var(--vermelho);
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.programaColunaDireita {
+  display: inline-block;
+  width: 47%;
+  margin-left: 1.6%;
+}
+
+.programaColunaDireita .containerCartoes {
+  height: 17vh;
+  width: 47%;
+  background-color: var(--azul);
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.programaColunaCentroManha .containerCartoes:last-of-type {
+  margin-left: 3.19%;
+}
+
+.programaColunaCentroTarde .containerCartoes:last-of-type {
+  margin-left: 3.19%;
+}
+
+.programaColunaEsquerda .containerCartoes:last-of-type {
+  margin-left: 3.19%;
+}
+
+.programaColunaDireita .containerCartoes:last-of-type {
+  margin-left: 3.19%;
+}
+
+.wrapperCartoes {
+  margin-top: 5%;
+  margin-left: 6%;
+}
+
+.programaCartaoHora {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.programaCartaoHora h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.programaCartaoInfo {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.programaCartaoInfo h2 {
+  font-weight: 300;
+  font-weight: 18px;
+}
+
+.programaCartaoInfo span {
+  font-weight: 500;
+  font-weight: 16px;
+}
+
+/*----------------Workshop-------------------*/
+
+.containerWorkshop {
   width: 100%;
   background-color: var(--body-background-color);
   position: relative;
+  z-index: 2;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
-main .containerParceiros .wrapper .organizadoresParceirosGold {
-  display: flex;
+/*----------------Parceiros-------------------*/
+
+.containerParceiros {
+  width: 100%;
+  background-color: var(--body-background-color);
+  position: relative;
+  z-index: 2;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
 main .containerParceiros .wrapper .organizadoresParceirosGold .organizadores {
@@ -234,40 +402,45 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
 }
 
 .organizadores {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  display: inline-block;
+  width: 47%;
+  padding-bottom: 13vh;
+}
+
+.organizadores .logosDosOrganizadores div {
+  display: inline-block;
+  margin-right: 20%;
+}
+
+.organizadores .logosDosOrganizadores div:last-of-type,  .parceirosGold .logosDosParceirosGold div:last-of-type{
+  margin-right: 0;
 }
 
 .parceirosGold {
-  padding-bottom: 100px;
+  display: inline-block;
+  width: 47%;
+  padding-bottom: 13vh;
 }
 
-main
-  .containerParceiros
-  .wrapper
-  .organizadoresParceirosGold
-  .logosDosOParceirosGold {
-  display: flex;
+.parceirosGold .logosDosParceirosGold div, .parceirosSilver .logosDosParceirosSilver div {
+  display: inline-block;
+  margin-right: 20%;
 }
 
-main .containerParceiros .wrapper .parceirosSilver {
-  width: 100%;
+.parceirosSilver .logosDosParceirosSilver div {
+  display: inline-block;
+  margin-right: 6.8vw;
 }
-
-.parceirosSilver {
-  padding-bottom: 200px;
-}
-
-main .containerParceiros .wrapper .logosDosParceirosSilver {
-  display: flex;
-}
-
 
 /*----------------sobre-------------------*/
 
 main .wrapper .containerSobre {
   width: 100%;
-  display: flex;
+  background-color: var(--body-background-color);
+  position: relative;
+  z-index: 2;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
 .textoSobre {
@@ -276,6 +449,7 @@ main .wrapper .containerSobre {
   padding-bottom: 2vh;
   position: relative;
   width: 47%;
+  margin-right: 5%;
 }
 
 .textoSobre h1 {
@@ -283,16 +457,17 @@ main .wrapper .containerSobre {
   font-weight: normal;
 }
 
-.textoSobre p{
-  padding-bottom: 200px;
+.textoSobre h1 span {
+  color: var(--azul);
+}
+
+.textoSobre p {
+  text-align: justify;
+  line-height: 1.8;
 }
 
 .imagemSobre {
   width: 47%;
-}
-
-.containerparceiros {
-  margin-left: 150px;
 }
 
 /*-----------------------------FOOTER-------------------------------------------*/
@@ -301,12 +476,12 @@ footer {
   background-color: var(--footer);
   position: relative;
   margin-bottom: 0;
+  color: white;
 }
 
 footer > div.wrapper {
   margin-left: 14%;
   margin-right: 14%;
-  color: white;
 }
 
 footer .wrapper .containerFooter {
@@ -316,114 +491,32 @@ footer .wrapper .containerFooter {
   text-align: center;
 }
 
-footer .wrapper .containerFooter .containerContacto {
-  padding-bottom: 2%;
+.iconFooterTexto {
+  display: inline-block;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerEmail
-  .emailImagem {
+
+.FooterIcon {
   display: inline-block;
   vertical-align: middle;
   width: 25px;
 }
 
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerEmail
-  .emailTexto {
-  display: inline-block;
-}
-
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerTelefone
-  .telefoneImagem {
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-}
-
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerTelefone
-  .telefoneTexto {
-  display: inline-block;
-}
-
-footer .wrapper .containerFooter .containerContacto .containerLocalizacao {
-  display: inline-block;
-}
-
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerLocalizacao
-  .localizacaoImagem {
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-}
-
-footer
-  .wrapper
-  .containerFooter
-  .containerContacto
-  .containerLocalizacao
-  .localizacaoTexto {
-  display: inline-block;
-}
-
-.containerEmail,
-.containerTelefone,
-.containerLocalizacao,
-.containerRedesSociais {
+.containerFooterInfo, .containerRedesSociais {
   display: inline-block;
   padding: 0 2% 0 2%; /*top, right, bottom, left*/
-}
-
-footer .wrapper .containerFooter .containerRedesSociais .wrapperRedesSociais {
-  width: auto;
-  height: 25px;
-  display: inline-block;
-}
-
-footer
-  .wrapper
-  .containerFooter
-  .containerRedesSociais
-  .wrapperRedesSociais
-  .youtubeLogo,
-.instagramLogo,
-.facebookLogo {
-  display: inline-block;
-  width: auto;
-  height: 25px;
-}
-
-.containerRedesSociais {
   vertical-align: middle;
+
 }
 
 .wrapperRedesSociais {
+  width: auto;
+  height: 25px;
+  display: inline-block;
   padding: 5px;
 }
 
-.containerRedesSociais img {
-  width: 20px;
-}
-
-footer .wrapper .containerFooter .simboloFooter {
+.simboloFooter {
   width: 50px;
   margin: 1%;
 }
