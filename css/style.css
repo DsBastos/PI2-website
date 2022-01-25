@@ -119,8 +119,8 @@ main .wrapper {
 
 .containerFeiraDeEmprego {
   width: 100%;
-  height: 113vh;
   padding-top: 20vh;
+  padding-bottom: 17vh;
   position: sticky;
   top: 0;
   z-index: 0;
@@ -180,9 +180,9 @@ main .wrapper {
 
 .containerInfoEvento {
   width: 100%;
+  height: 85vh;
   padding-top: 20vh;
   background-color: var(--azul);
-  height: 85vh;
   color: white;
   position: sticky;
   top: 19vh;
@@ -218,7 +218,7 @@ main .wrapper {
   color: white;
   background-color: var(--body-background-color);
   padding-top: 20vh;
-  padding-bottom: 20vh ;
+  padding-bottom: 20vh;
 }
 
 /*triangulo*/
@@ -385,6 +385,7 @@ main .wrapper {
   position: relative;
   z-index: 2;
   padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
 /*----------------Parceiros-------------------*/
@@ -394,6 +395,8 @@ main .wrapper {
   background-color: var(--body-background-color);
   position: relative;
   z-index: 2;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
 .containerParceiros p {
@@ -405,7 +408,6 @@ main .wrapper {
 .organizadores {
   display: inline-block;
   width: 47%;
-  padding-top: 20vh;
   padding-bottom: 13vh;
 }
 
@@ -421,7 +423,6 @@ main .wrapper {
 .parceirosGold {
   display: inline-block;
   width: 47%;
-  padding-top: 20vh;
   padding-bottom: 13vh;
 }
 
@@ -432,10 +433,6 @@ main .wrapper {
 
 .parceirosGold .logosDosParceirosGold div:last-of-type {
   margin-right: 0;
-}
-
-.parceirosSilver {
-  padding-bottom: 26vh;
 }
 
 .parceirosSilver .logosDosParceirosSilver div {
