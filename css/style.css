@@ -380,9 +380,6 @@ main .wrapper {
   font-size: 1rem;
 }
 
-
-
-
 /*----------------Workshop-------------------*/
 
 .containerWorkshop {
@@ -411,15 +408,17 @@ main .wrapper {
   margin-bottom: 4vh;
 }
 
+.organizadoresParceirosGold {
+  padding-bottom: 13vh;
+}
+
 .organizadores {
   display: inline-block;
   width: 47%;
-  padding-bottom: 13vh;
 }
 
 .organizadores .logosDosOrganizadores div {
   display: inline-block;
-  margin-right: 11%;
   width: 25%;
   vertical-align: middle;
 }
@@ -431,12 +430,10 @@ main .wrapper {
 .parceirosGold {
   display: inline-block;
   width: 47%;
-  padding-bottom: 13vh;
 }
 
 .parceirosGold .logosDosParceirosGold div {
   display: inline-block;
-  margin-right: 11%;
   width: 25%;
   vertical-align: middle;
 }
@@ -449,10 +446,24 @@ main .wrapper {
   margin-right: 0;
 }
 
+.parceirosSilverLinha {
+  width: 100%;
+}
+
+.parceirosSilverLinha:last-of-type {
+  margin-bottom: 0;
+}
+
 .parceirosSilver .logosDosParceirosSilver div {
   display: inline-block;
-  margin-right: 6.8vw;
-  width: 18%;
+  width: 7%;
+  vertical-align: middle;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.parceirosSilver .logosDosParceirosSilver div:last-of-type {
+  margin-right: 0;
 }
 
 
