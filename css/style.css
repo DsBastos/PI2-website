@@ -60,46 +60,53 @@ body {
 /*------------------------------HEADER------------------------------------------*/
 header.container {
   width: 100%;
-  height: 143px;
   background-color: var(--body-background-color);
   position: fixed;
-  z-index: 2;
+  z-index: 3;
 }
 
-header.container .wrapper {
-  width: 75%;
-  margin: 0 14%;
-  padding-top: 1.5%;
+header .wrapper {
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-top: 2.5%;
+  padding-bottom: 1%;
 }
 
-header.container .wrapper .logoImagem {
+
+.logotipo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logoImagem {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
 }
 
-.logoImagem .logo {
-  width: auto;
-  height: 84px;
+.logoImagem img {
+  display: block;
+  width: 3rem;
+  margin-left: 0;
+  margin-right: auto;
 }
 
-.navbar {
-  display: inline-block;
-  text-align: right;
-  width: 93%;
+.logoDescription {
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 1rem;
 }
 
-.headerNavBar {
-  width: 100%;
-}
-
-.headerNavBar li {
-  display: inline-block;
+ul li {
+  float: right;
+  padding: 10px;
+  margin-left: 5px;
   font-size: 16px;
   font-weight: 500;
-  color: black;
-  margin-left: 5%;
-  cursor: pointer;
+}
+
+li a:hover {
+  color: var(--azul);
 }
 
 /*-------------------------------MAIN-----------------------------------------*/
@@ -119,13 +126,9 @@ main .wrapper {
   z-index: 0;
 }
 
-main .wrapper .containerFeiraDeEmprego {
-  width: 100%;
-  padding-bottom: 15vh;
-}
-
-main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
+.feiraDeEmpregoDataLocal {
   width: 47%;
+  height: 89%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -133,61 +136,83 @@ main .wrapper .containerFeiraDeEmprego .feiraDeEmpregoDataLocal {
 .feiraDeEmpregoDataLocal h1 {
   font-size: 5.2em;
   font-weight: normal;
-  padding-bottom: 84px;
 }
 
-.feiraDeEmpregoDataLocal h1 span {
+.feiraDeEmpregoDataLocal span {
   font-weight: 600;
   color: var(--vermelho);
 }
 
+.feiraDeEmpregoDataLocal br {
+  display: block;
+  margin-bottom: -.4em;
+}
+
+.feiraDeEmpregoDataLocal p {
+  font-size: 18px;
+  font-weight: 200;
+}
 
 .feiraDeEmpregoDataLocal h2 {
   font-size: 2.1em;
   font-weight: 300;
+  padding-top: 12%;
 }
 
 .feiraDeEmpregoDataLocal h3 {
   font-size: 1.8em;
   font-weight: 200;
-  padding-bottom: 150px;
 }
 
-.containerFeiraDeEmprego .imagemHeroi {
-  width: 47%;
+.imagemHeroi {
+  width: 50%;
   display: inline-block;
   vertical-align: middle;
 }
 
+.scrollDown {
+  width: 7vh;
+  margin: auto;
+  opacity: 0.3;
+}
 
 /*----------------infoEvento-------------------*/
 
-main .containerInfoEvento {
+.containerInfoEvento {
   width: 100%;
   height: 85vh;
   padding-top: 20vh;
   background-color: var(--azul);
   color: white;
   position: sticky;
+  top: 19vh;
+  z-index: 1;
+  text-align: justify;
 }
 
-main .containerInfoEvento::before {
+/*triangulo*/
+.containerInfoEvento::before {
   content: "";
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--azul);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right: 49.43vw solid transparent;
+  border-left: 49.43vw solid transparent;
 }
 
-.infoEventoTexto{
-  padding-top: 64px;
+.eventoTexto {
+  padding-top: 3vh;
+  font-size: 16px;
 }
 
-main .wrapperInfoEventoParceiros {
-  margin-left: 14%;
-  margin-right: 14%;
-  padding-bottom: 2vh;
+.eventoTexto span {
+  font-weight: 600;
+}
+
+/*----------------Programa-------------------*/
+
+.containerPrograma {
+  width: 100%;
   position: relative;
   z-index: 2;
   color: white;
@@ -196,29 +221,14 @@ main .wrapperInfoEventoParceiros {
   padding-bottom: 20vh;
 }
 
-/*----------------Parceiros-------------------*/
-.containerPrograma{
-  height: 125px;
-  width: 175px;
-  background-color: var(--vermelho);
-}
-
-.ProgramaCartaoHora{
-  display: inline-block;
-}
-
-.ProgramaCartaoInfo{
-  display: inline-block;
-  vertical-align: text-top;
-}
-
-main .containerParceiros::before {
+/*triangulo*/
+.containerPrograma::before {
   content: "";
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 50vw solid transparent;
-  border-left: 50vw solid transparent;
+  border-right: 49.43vw solid transparent;
+  border-left: 49.43vw solid transparent;
 }
 
 .diaDoAno {
@@ -389,16 +399,10 @@ main .containerParceiros::before {
   padding-bottom: 20vh;
 }
 
-main .containerParceiros .wrapper .organizadoresParceirosGold .organizadores {
-  width: 47%;
-}
-
-main .containerParceiros .wrapper .organizadores .logosDosOrganizadores {
-  display: flex;
-}
-
-main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
-  width: 47%;
+.containerParceiros p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4vh;
 }
 
 .organizadores {
@@ -422,7 +426,7 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   padding-bottom: 13vh;
 }
 
-.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver div {
+.parceirosGold .logosDosParceirosGold div {
   display: inline-block;
   margin-right: 20%;
 }
@@ -431,9 +435,16 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   margin-right: 0;
 }
 
+.parceirosSilver .logosDosParceirosSilver div {
+  display: inline-block;
+  margin-right: 6.8vw;
+}
+
+
+
 /*----------------sobre-------------------*/
 
-main .wrapper .containerSobre {
+.containerSobre {
   width: 100%;
   background-color: var(--body-background-color);
   position: relative;
@@ -443,17 +454,15 @@ main .wrapper .containerSobre {
 }
 
 .textoSobre {
-  margin-left: 14%;
-  margin-right: 14%;
-  padding-bottom: 2vh;
-  position: relative;
+  display: inline-block;
   width: 47%;
   margin-right: 5%;
 }
 
 .textoSobre h1 {
   font-size: 1.8em;
-  font-weight: normal;
+  font-weight: 600;
+  margin-bottom: 5%;
 }
 
 .textoSobre h1 span {
@@ -466,7 +475,8 @@ main .wrapper .containerSobre {
 }
 
 .imagemSobre {
-  width: 47%;
+  display: inline-block;
+  width: 40%;
 }
 
 /*-----------------------------FOOTER-------------------------------------------*/
@@ -478,12 +488,12 @@ footer {
   color: white;
 }
 
-footer > div.wrapper {
+footer .wrapper {
   margin-left: 14%;
   margin-right: 14%;
 }
 
-footer .wrapper .containerFooter {
+.containerFooter {
   width: 100%;
   padding-top: 3.2%;
   padding-bottom: 2.2%;
@@ -520,7 +530,7 @@ footer .wrapper .containerFooter {
   margin: 1%;
 }
 
-footer .wrapper .containerFooter .containerTermos {
+.containerTermos {
   font-weight: 200;
 }
 
@@ -528,11 +538,14 @@ footer .wrapper .containerFooter .containerTermos {
   font-size: 12px;
 }
 
+/*------------------------------------------------*/
+
 .textCenter {
   text-align: center;
 }
 
 /*================== SCROLL UP ==================*/
+
 .scrollUp {
   position: fixed;
   right: 1rem;
@@ -541,7 +554,7 @@ footer .wrapper .containerFooter .containerTermos {
   opacity: 0.8rem;
   padding: 0 0.3rem;
   border-radius: 0.4rem;
-  z-index: 2;
+  z-index: 3;
   transition: 0.4s;
 }
 
@@ -550,11 +563,20 @@ footer .wrapper .containerFooter .containerTermos {
 }
 
 .scrollUp__icon {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #fff;
 }
 
 /* Show scroll */
 .show-scroll {
   bottom: 2rem;
+}
+
+a.scrollUp img {
+  padding-top: 0.5rem;
+  width: 2rem;
+}
+
+a {
+  cursor: pointer;
 }
