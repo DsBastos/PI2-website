@@ -378,13 +378,14 @@ main .wrapper {
 }
 
 /*----------------Workshop-------------------*/
+
 .containerWorkshop {
   width: 100%;
   background-color: var(--body-background-color);
   position: relative;
   z-index: 2;
+  padding-top: 20vh;
 }
-
 
 /*----------------Parceiros-------------------*/
 
@@ -454,6 +455,7 @@ main .wrapper {
   background-color: var(--body-background-color);
   position: relative;
   z-index: 2;
+  padding-top: 20vh;
 }
 
 .textoSobre {
@@ -484,11 +486,13 @@ main .wrapper {
 }
 
 /*----------------Contactos-------------------*/
+
 .containerContactos {
   width: 100%;
   background-color: var(--body-background-color);
   position: relative;
   z-index: 2;
+  padding-top: 20vh;
 }
 
 /*-----------------------------FOOTER-------------------------------------------*/
