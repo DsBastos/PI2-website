@@ -412,7 +412,7 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   margin-right: 20%;
 }
 
-.organizadores .logosDosOrganizadores div:last-of-type,  .parceirosGold .logosDosParceirosGold div:last-of-type{
+.organizadores .logosDosOrganizadores div:last-of-type {
   margin-right: 0;
 }
 
@@ -422,14 +422,13 @@ main .containerParceiros .wrapper .organizadoresParceirosGold .parceirosGold {
   padding-bottom: 13vh;
 }
 
-.parceirosGold .logosDosParceirosGold div, .parceirosSilver .logosDosParceirosSilver div {
+.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver div {
   display: inline-block;
   margin-right: 20%;
 }
 
-.parceirosSilver .logosDosParceirosSilver div {
-  display: inline-block;
-  margin-right: 6.8vw;
+.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver  div:last-of-type {
+  margin-right: 0;
 }
 
 /*----------------sobre-------------------*/
