@@ -280,6 +280,7 @@ main .wrapper {
   display: inline-block;
   width: 47%;
   margin-right: 4%;
+  margin-bottom: 4%;
 }
 
 .programaColunaEsquerda .containerCartoes {
@@ -287,13 +288,12 @@ main .wrapper {
   width: 47%;
   background-color: var(--vermelho);
   display: inline-block;
-  margin-bottom: 4%;
-  
 }
 
 .programaColunaCentroManha {
   width: 47%;
   margin: auto;
+  margin-bottom: 4%;
 }
 
 .programaColunaCentroManha .containerCartoes {
@@ -301,12 +301,12 @@ main .wrapper {
   width: 47%;
   background-color: var(--azul);
   display: inline-block;
-  margin-bottom: 4%;
 }
 
 .programaColunaCentroTarde {
   width: 47%;
   margin: auto;
+  margin-bottom: 4%;
 }
 
 .programaColunaCentroTarde .containerCartoes {
@@ -314,13 +314,13 @@ main .wrapper {
   width: 47%;
   background-color: var(--vermelho);
   display: inline-block;
-  margin-bottom: 4%;
 }
 
 .programaColunaDireita {
   display: inline-block;
   width: 47%;
   margin-left: 1.6%;
+  margin-bottom: 4%;
 }
 
 .programaColunaDireita .containerCartoes {
@@ -328,7 +328,6 @@ main .wrapper {
   width: 47%;
   background-color: var(--azul);
   display: inline-block;
-  margin-bottom: 4%;
 }
 
 .programaColunaCentroManha .containerCartoes:last-of-type {
