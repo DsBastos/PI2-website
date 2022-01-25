@@ -332,18 +332,22 @@ main .wrapper {
 
 .programaColunaCentroManha .containerCartoes:last-of-type {
   margin-left: 3.19%;
+  float: right;
 }
 
 .programaColunaCentroTarde .containerCartoes:last-of-type {
   margin-left: 3.19%;
+  float: right;
 }
 
 .programaColunaEsquerda .containerCartoes:last-of-type {
   margin-left: 3.19%;
+  float: right;
 }
 
 .programaColunaDireita .containerCartoes:last-of-type {
   margin-left: 3.19%;
+  float: right;
 }
 
 .wrapperCartoes {
