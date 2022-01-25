@@ -419,7 +419,9 @@ main .wrapper {
 
 .organizadores .logosDosOrganizadores div {
   display: inline-block;
-  margin-right: 20%;
+  margin-right: 11%;
+  width: 25%;
+  vertical-align: middle;
 }
 
 .organizadores .logosDosOrganizadores div:last-of-type {
@@ -434,7 +436,13 @@ main .wrapper {
 
 .parceirosGold .logosDosParceirosGold div {
   display: inline-block;
-  margin-right: 20%;
+  margin-right: 11%;
+  width: 25%;
+  vertical-align: middle;
+}
+
+.parceirosGold .logosDosParceirosGold div:last-of-type {
+  margin-right: 0;
 }
 
 .parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver  div:last-of-type {
@@ -444,6 +452,7 @@ main .wrapper {
 .parceirosSilver .logosDosParceirosSilver div {
   display: inline-block;
   margin-right: 6.8vw;
+  width: 18%;
 }
 
 
