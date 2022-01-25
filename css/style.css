@@ -243,7 +243,6 @@ main .wrapper {
 
 .diaDoAno:first-of-type {
   margin-top: 0;
-  margin-bottom: 7%;
 }
 
 .alturaDoDia {
@@ -274,12 +273,12 @@ main .wrapper {
 
 .programaLinha {
   width: 100%;
+  margin-bottom: 1.8%;
 }
 
 .programaColunaEsquerda {
   display: inline-block;
   width: 49%;
-  margin-bottom: 4%;
   margin-right: 1%;
 }
 
@@ -293,7 +292,6 @@ main .wrapper {
 .programaColunaCentroManha {
   width: 49%;
   margin: auto;
-  margin-bottom: 4%;
 }
 
 .programaColunaCentroManha .containerCartoes {
@@ -306,7 +304,6 @@ main .wrapper {
 .programaColunaCentroTarde {
   width: 49%;
   margin: auto;
-  margin-bottom: 4%;
 }
 
 .programaColunaCentroTarde .containerCartoes {
@@ -319,7 +316,6 @@ main .wrapper {
 .programaColunaDireita {
   display: inline-block;
   width: 49%;
-  margin-bottom: 4%;
 }
 
 .programaColunaDireita .containerCartoes {
