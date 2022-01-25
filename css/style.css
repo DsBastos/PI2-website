@@ -503,29 +503,10 @@ footer .wrapper {
   text-align: center;
 }
 
-.emailImagem {
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-}
-
-.emailTexto {
-  display: inline-block;
-}
-
-.telefoneImagem {
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-}
-
 .iconFooterTexto {
   display: inline-block;
 }
 
-.containerLocalizacao {
-  display: inline-block;
-}
 
 .FooterIcon {
   display: inline-block;
@@ -545,16 +526,6 @@ footer .wrapper {
   height: 25px;
   display: inline-block;
   padding: 5px;
-}
-
-.youtubeLogo, .instagramLogo, .facebookLogo {
-  display: inline-block;
-  width: auto;
-  height: 25px;
-}
-
-.containerRedesSociais img {
-  width: 20px;
 }
 
 .simboloFooter {
