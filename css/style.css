@@ -550,6 +550,7 @@ footer .wrapper {
   width: auto;
   height: 25px;
   display: inline-block;
+  padding: 5px;
 }
 
 .youtubeLogo, .instagramLogo, .facebookLogo {
@@ -560,10 +561,6 @@ footer .wrapper {
 
 .containerRedesSociais {
   vertical-align: middle;
-}
-
-.wrapperRedesSociais {
-  padding: 5px;
 }
 
 .containerRedesSociais img {
