@@ -359,7 +359,7 @@ main .wrapper {
 
 .programaCartaoHora h1 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .programaCartaoInfo {
@@ -369,13 +369,21 @@ main .wrapper {
 
 .programaCartaoInfo h2 {
   font-weight: 300;
-  font-weight: 18px;
+  font-size: 16px;
 }
 
-.programaCartaoInfo span {
-  font-weight: 500;
-  font-weight: 16px;
+.programaCartaoInfo span.nomeEmpresa {
+  font-weight: 700;
+  font-size: 20px;
 }
+
+.programaCartaoInfo span.nomeApelido {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+
 
 /*----------------Workshop-------------------*/
 
