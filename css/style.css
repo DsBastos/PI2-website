@@ -72,9 +72,6 @@ header .wrapper {
   padding-bottom: 1%;
 }
 
-#menuToggle {
-  width: 100%;
-}
 
 .logotipo {
   display: inline-block;
@@ -224,12 +221,12 @@ main .wrapper {
 
 .containerPrograma {
   width: 100%;
-  height: 210vh;
   position: relative;
   z-index: 2;
   color: white;
   background-color: var(--body-background-color);
   padding-top: 20vh;
+  padding-bottom: 20vh ;
 }
 
 /*triangulo*/
@@ -463,7 +460,6 @@ main .wrapper {
 .containerSobre {
   width: 100%;
   background-color: var(--body-background-color);
-  padding-top: 20vh;
   position: relative;
   z-index: 2;
 }
