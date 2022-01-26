@@ -129,7 +129,6 @@ main .wrapper {
 
 .feiraDeEmpregoDataLocal {
   width: 54%;
-  height: 89%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -149,13 +148,13 @@ main .wrapper {
 .feiraDeEmpregoDataLocal p {
   font-size: 18px;
   font-weight: 200;
-  margin-top: -1em;
+  margin-top: -3%;
 }
 
 .feiraDeEmpregoDataLocal h2 {
   font-size: 2.1em;
   font-weight: 300;
-  padding-top: 12%;
+  padding-top: 10%;
 }
 
 .feiraDeEmpregoDataLocal h3 {
