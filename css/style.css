@@ -19,6 +19,7 @@
   --vermelhoHoverEffect: rgba(177, 28, 42, 0.8);
   --azul: rgb(0, 145, 164);
   --footer: rgb(81, 81, 81);
+  --background-cinzento-color: #c2c2c2;
 }
 
 /*
@@ -151,6 +152,7 @@ main .wrapper {
 .feiraDeEmpregoDataLocal p {
   font-size: 18px;
   font-weight: 200;
+  margin-top: -1em;
 }
 
 .feiraDeEmpregoDataLocal h2 {
@@ -218,7 +220,7 @@ main .wrapper {
   color: white;
   background-color: var(--body-background-color);
   padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-bottom: 40vh;
 }
 
 /*triangulo*/
@@ -384,11 +386,21 @@ main .wrapper {
 
 .containerWorkshop {
   width: 100%;
-  background-color: var(--body-background-color);
+  background-color: var(--background-cinzento-color);
   position: relative;
   z-index: 2;
   padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-bottom: 40vh;
+}
+
+/*triangulo*/
+.containerWorkshop::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 9vw solid var(--background-cinzento-color);
+  border-right: 49.43vw solid transparent;
+  border-left: 49.43vw solid transparent;
 }
 
 /*----------------Parceiros-------------------*/
@@ -399,7 +411,17 @@ main .wrapper {
   position: relative;
   z-index: 2;
   padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-bottom: 40vh;
+}
+
+/*triangulo*/
+.containerParceiros::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 9vw solid var(--body-background-color);
+  border-right: 49.43vw solid transparent;
+  border-left: 49.43vw solid transparent;
 }
 
 .containerParceiros p {
