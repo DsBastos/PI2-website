@@ -19,7 +19,7 @@
   --vermelhoHoverEffect: rgba(177, 28, 42, 0.8);
   --azul: rgb(0, 145, 164);
   --footer: rgb(81, 81, 81);
-  --background-cinzento-color: #c2c2c2;
+  --background-cinzento-color: #d8d9d9;
 }
 
 /*
@@ -134,13 +134,13 @@ main .wrapper {
 }
 
 .feira {
-  font-size: 5.2em;
+  font-size: 6.2em;
   font-weight: normal;
   margin-bottom: -6%;
 }
 
 .emprego {
-  font-size: 5.2em;
+  font-size: 6.2em;
   font-weight: 600;
   color: var(--vermelho);
 }
@@ -148,7 +148,7 @@ main .wrapper {
 .feiraDeEmpregoDataLocal p {
   font-size: 18px;
   font-weight: 200;
-  margin-top: -3%;
+  margin-top: -1.8%;
 }
 
 .feiraDeEmpregoDataLocal h2 {
