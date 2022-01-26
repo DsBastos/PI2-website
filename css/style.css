@@ -484,8 +484,8 @@ main .wrapper {
 
 .textoSobre {
   display: inline-block;
-  width: 47%;
-  margin-right: 5%;
+  width: 55%;
+  margin-right: 11%;
 }
 
 .textoSobre h1 {
@@ -505,7 +505,7 @@ main .wrapper {
 
 .imagemSobre {
   display: inline-block;
-  width: 40%;
+  width: 32%;
 }
 
 /*-----------------------------FOOTER-------------------------------------------*/
