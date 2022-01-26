@@ -274,17 +274,10 @@ main .wrapper {
   margin-bottom: 1.8%;
 }
 
-.containerCartoesAzul {
+.containerCartoes {
   height: 18vh;
   width: 49%;
   background-color: var(--azul);
-  display: inline-block;
-}
-
-.containerCartoesVermelho {
-  height: 18vh;
-  width: 49%;
-  background-color: var(--vermelho);
   display: inline-block;
 }
 
