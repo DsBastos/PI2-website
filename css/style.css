@@ -145,7 +145,7 @@ main .wrapper {
   color: var(--vermelho);
 }
 
-.feiraDeEmpregoDataLocal p {
+.feiraDeEmpregoDataLocal p {reduzir 
   font-size: 18px;
   font-weight: 200;
   margin-top: -3%;
