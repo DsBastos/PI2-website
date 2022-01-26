@@ -376,6 +376,60 @@ main .wrapper {
   border-left: 49.43vw solid transparent;
 }
 
+.textoWorkshop {
+color: white;
+padding: 4vh;
+position: relative;
+}
+
+.vermelho {
+  background-color: var(--vermelho);
+}
+
+.azul{
+  background-color: var(--azul);
+}
+
+.textoWorkshop h3{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.textoWorkshop h4{
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding-top: 0.6vh;
+}
+
+.textoWorkshop p {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.textoWorkshop a{
+  background-color: white;
+  border-radius: 4px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 8px 16px;
+  width: 150px;
+  margin: 5% 0 0 auto;
+}
+
+.textoWorkshop a.vermelho{
+  color: var(--vermelho);
+}
+.textoWorkshop a.azul{
+  color: var(--azul);
+}
+
+.textoWorkshop a:hover {
+  background-color: var(--background-cinzento-color);
+  color: black;
+}
+
 /*----------------Parceiros-------------------*/
 
 .containerParceiros {
