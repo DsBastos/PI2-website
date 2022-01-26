@@ -274,11 +274,6 @@ main .wrapper {
   margin-bottom: 1.8%;
 }
 
-.programaColunaCentroManha {
-  width: 49%;
-  margin: auto;
-}
-
 .containerCartoesAzul {
   height: 18vh;
   width: 49%;
@@ -293,6 +288,11 @@ main .wrapper {
   display: inline-block;
 }
 
+.programaColunaCentro {
+  width: 49%;
+  margin: auto;
+}
+
 .programaColunaEsquerda {
   display: inline-block;
   width: 49%;
@@ -304,16 +304,7 @@ main .wrapper {
   width: 49%;
 }
 
-.programaColunaCentroTarde {
-  width: 49%;
-  margin: auto;
-}
-
-.programaColunaCentroManha .containerCartoesAzul:last-of-type {
-  float: right;
-}
-
-.programaColunaCentroTarde .containerCartoesVermelho:last-of-type {
+.programaColunaCentro .containerCartoesAzul:last-of-type, .containerCartoesVermelho:last-of-type  {
   float: right;
 }
 
