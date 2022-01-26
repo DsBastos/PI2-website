@@ -279,10 +279,17 @@ main .wrapper {
   margin: auto;
 }
 
-.programaColunaCentroManha .containerCartoes {
+.containerCartoesAzul {
   height: 18vh;
   width: 49%;
   background-color: var(--azul);
+  display: inline-block;
+}
+
+.containerCartoesVermelho {
+  height: 18vh;
+  width: 49%;
+  background-color: var(--vermelho);
   display: inline-block;
 }
 
@@ -292,23 +299,9 @@ main .wrapper {
   margin-right: 1%;
 }
 
-.programaColunaEsquerda .containerCartoes {
-  height: 18vh;
-  width: 49%;
-  background-color: var(--vermelho);
-  display: inline-block;
-}
-
 .programaColunaDireita {
   display: inline-block;
   width: 49%;
-}
-
-.programaColunaDireita .containerCartoes {
-  height: 18vh;
-  width: 49%;
-  background-color: var(--azul);
-  display: inline-block;
 }
 
 .programaColunaCentroTarde {
@@ -316,26 +309,19 @@ main .wrapper {
   margin: auto;
 }
 
-.programaColunaCentroTarde .containerCartoes {
-  height: 18vh;
-  width: 49%;
-  background-color: var(--vermelho);
-  display: inline-block;
-}
-
-.programaColunaCentroManha .containerCartoes:last-of-type {
+.programaColunaCentroManha .containerCartoesAzul:last-of-type {
   float: right;
 }
 
-.programaColunaCentroTarde .containerCartoes:last-of-type {
+.programaColunaCentroTarde .containerCartoesVermelho:last-of-type {
   float: right;
 }
 
-.programaColunaEsquerda .containerCartoes:last-of-type {
+.programaColunaEsquerda .containerCartoesVermelho:last-of-type {
   float: right;
 }
 
-.programaColunaDireita .containerCartoes:last-of-type {
+.programaColunaDireita .containerCartoesAzul:last-of-type {
   float: right;
 }
 
