@@ -377,9 +377,9 @@ main .wrapper {
 }
 
 .textoWorkshop {
-color: white;
-padding: 4vh;
-position: relative;
+  color: white;
+  padding: 4vh;
+  position: relative;
 }
 
 .vermelho {
@@ -390,13 +390,13 @@ position: relative;
   background-color: var(--azul);
 }
 
-.textoWorkshop h3{
-  font-weight: 700;
+.textoWorkshop h3 {
+  font-weight: 600;
   font-size: 1.5rem;
 }
 
-.textoWorkshop h4{
-  font-weight: 300;
+.textoWorkshop h4 {
+  font-weight: 500;
   font-size: 0.8rem;
   padding-top: 0.6vh;
 }
@@ -406,22 +406,21 @@ position: relative;
   font-size: 0.8rem;
 }
 
-.textoWorkshop a{
+.textoWorkshop a {
   background-color: white;
   border-radius: 4px;
   display: block;
   text-align: center;
-  text-decoration: none;
   font-size: 0.8rem;
   padding: 8px 16px;
-  width: 150px;
+  width: 30%;
   margin: 5% 0 0 auto;
 }
 
-.textoWorkshop a.vermelho{
+.textoWorkshop a.vermelho {
   color: var(--vermelho);
 }
-.textoWorkshop a.azul{
+.textoWorkshop a.azul {
   color: var(--azul);
 }
 
