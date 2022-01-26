@@ -120,7 +120,7 @@ main .wrapper {
 .containerFeiraDeEmprego {
   width: 100%;
   padding-top: 20vh;
-  padding-bottom: 17vh;
+  padding-bottom: 20vh;
   position: sticky;
   top: 0;
   z-index: 0;
@@ -171,7 +171,7 @@ main .wrapper {
 }
 
 .scrollDown {
-  width: 7vh;
+  width: 4vh;
   margin: auto;
   opacity: 0.3;
 }
