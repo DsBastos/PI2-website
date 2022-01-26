@@ -430,6 +430,7 @@ main .wrapper {
 .parceirosGold {
   display: inline-block;
   width: 47%;
+  margin-left: 5.65%; /*santos adicionou isto*/
 }
 
 .parceirosGold .logosDosParceirosGold div {
