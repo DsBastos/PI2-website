@@ -548,12 +548,15 @@ footer .wrapper {
 .FooterIcon {
   display: inline-block;
   vertical-align: middle;
-  width: 25px;
+  width: 1.4rem;
+  margin-right: 1rem;
 }
 
 .iconFooterTexto {
   display: inline-block;
   vertical-align: middle;
+  text-align: start;
+  letter-spacing: 0.06rem;
 }
 
 .containerFooterInfo, .containerRedesSociais {
