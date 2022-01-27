@@ -50,6 +50,5 @@ function changeColorMouseOver(menu) {
   menu.style.color = colors[0];
 }
 
-function changeColorMouseOut(menu) {
-  menu.style.color = colors[1];
-}
+
+
