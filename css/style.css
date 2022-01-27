@@ -411,6 +411,7 @@ main .wrapper {
   padding-top: 20vh;
 }
 
+
 .logosDosOrganizadores img{
 padding-right: 4vh;
 }
@@ -419,6 +420,9 @@ padding-right: 4vh;
   padding-right: 4vh;
 }
 
+.containerParceiros a img:hover{
+  transform: scale(1.2);
+}
 
 /*triangulo*/
 .containerParceiros::before {
