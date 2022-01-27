@@ -675,4 +675,52 @@ a {
     margin: auto;
   }
   
+  .textoWorkshop h3 {
+    font-size: 1rem;
+  }
+
+  .textoWorkshop a{
+    width: 100%;
+  }
+
+  .organizadores {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 6vh;
+  }
+
+  .parceirosGold {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 6vh;
+  }
+
+  .organizadores .logosDosOrganizadores div {
+    display: inline-block;
+    width: 32%;
+    vertical-align: middle;
+  }
+
+  .logosDosOrganizadores img:last-of-type {
+    padding-right: 0;
+  }
+
+  .parceirosSilver .logosDosParceirosSilver div {
+    display: inline-block;
+    width: 16%;
+    vertical-align: middle;
+    margin-right: 5.5%;
+  }
+
+  .parceirosGold .logosDosParceirosGold div {
+    display: inline-block;
+    width: 32%;
+    vertical-align: middle;
+  }
+
+  .logosDosParceirosGold img:last-of-type {
+    padding-right: 0;
+  }
 }
