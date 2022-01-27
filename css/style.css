@@ -421,15 +421,15 @@ main .wrapper {
   border-left: 49.43vw solid transparent;
 }
 
-.logosDosOrganizadores img{
+.logosDosOrganizadores img {
   padding-right: 4vh;
 }
 
-.logosDosParceirosGold img{
+.logosDosParceirosGold img {
   padding-right: 4vh;
 }
 
-.containerParceiros a img:hover{
+.containerParceiros a img:hover {
   transform: scale(1.2);
 }
 
@@ -452,10 +452,6 @@ main .wrapper {
   vertical-align: middle;
 }
 
-.organizadores .logosDosOrganizadores div:last-of-type {
-  margin-right: 0;
-}
-
 .parceirosGold {
   display: inline-block;
   width: 47%;
@@ -468,16 +464,9 @@ main .wrapper {
   vertical-align: middle;
 }
 
-.parceirosGold .logosDosParceirosGold div:last-of-type {
-  margin-right: 0;
-}
-
-.parceirosGold .logosDosParceirosGold, .parceirosSilver .logosDosParceirosSilver  div:last-of-type {
-  margin-right: 0;
-}
-
 .parceirosSilverLinha {
   width: 100%;
+  margin-bottom: 5%;
 }
 
 .parceirosSilverLinha:last-of-type {
@@ -488,8 +477,7 @@ main .wrapper {
   display: inline-block;
   width: 7%;
   vertical-align: middle;
-  margin-right: 5.85%;
-  margin-bottom: 5%;
+  margin-right: 5.5%;
 }
 
 .parceirosSilver .logosDosParceirosSilver div:last-of-type {
