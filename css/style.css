@@ -411,19 +411,6 @@ main .wrapper {
   padding-top: 20vh;
 }
 
-
-.logosDosOrganizadores img{
-padding-right: 4vh;
-}
-
-.logosDosParceirosGold img{
-  padding-right: 4vh;
-}
-
-.containerParceiros a img:hover{
-  transform: scale(1.2);
-}
-
 /*triangulo*/
 .containerParceiros::before {
   content: "";
@@ -434,19 +421,29 @@ padding-right: 4vh;
   border-left: 49.43vw solid transparent;
 }
 
+.logosDosOrganizadores img{
+  padding-right: 4vh;
+}
+
+.logosDosParceirosGold img{
+  padding-right: 4vh;
+}
+
+.containerParceiros a img:hover{
+  transform: scale(1.2);
+}
+
 .containerParceiros p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   margin-bottom: 4vh;
 }
 
-.organizadoresParceirosGold {
-  padding-bottom: 13vh;
-}
-
 .organizadores {
   display: inline-block;
-  width: 52.6%;
+  width: 47%;
+  margin-right: 5.6%;
+  padding-bottom: 13vh;
 }
 
 .organizadores .logosDosOrganizadores div {
@@ -462,6 +459,7 @@ padding-right: 4vh;
 .parceirosGold {
   display: inline-block;
   width: 47%;
+  padding-bottom: 13vh;
 }
 
 .parceirosGold .logosDosParceirosGold div {
