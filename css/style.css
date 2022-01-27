@@ -274,9 +274,12 @@ main .wrapper {
 }
 
 .containerCartoes {
-  height: 18vh;
   width: 49%;
   display: inline-block;
+  padding-top: 1vh;
+  padding-bottom: 4vh;
+  padding-right: 2vh;
+  padding-left: 2vh;
 }
 
 .programaColunaCentro {
@@ -293,12 +296,6 @@ main .wrapper {
 .programaColunaDireita {
   display: inline-block;
   width: 49%;
-}
-
-.wrapperCartoes {
-  margin-top: 4%;
-  margin-left: 3%;
-  margin-right: 3%;
 }
 
 .programaCartaoHora {
