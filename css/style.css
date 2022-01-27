@@ -411,6 +411,15 @@ main .wrapper {
   padding-top: 20vh;
 }
 
+.logosDosOrganizadores img{
+padding-right: 4vh;
+}
+
+.logosDosParceirosGold img{
+  padding-right: 4vh;
+}
+
+
 /*triangulo*/
 .containerParceiros::before {
   content: "";
