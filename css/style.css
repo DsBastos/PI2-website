@@ -548,22 +548,21 @@ footer .wrapper {
   text-align: center;
 }
 
-.iconFooterTexto {
-  display: inline-block;
-}
-
-
 .FooterIcon {
   display: inline-block;
   vertical-align: middle;
   width: 25px;
 }
 
+.iconFooterTexto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .containerFooterInfo, .containerRedesSociais {
   display: inline-block;
   padding: 0 2% 0 2%; /*top, right, bottom, left*/
   vertical-align: middle;
-
 }
 
 .wrapperRedesSociais {
