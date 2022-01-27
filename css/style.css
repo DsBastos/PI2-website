@@ -309,7 +309,7 @@ main .wrapper {
   padding-right: 2%;
 }
 
-.programaCartaoHora h1 {
+.programaCartaoHora h2 {
   font-weight: 700;
   font-size: 28px;
   padding-right: 2%;
@@ -321,7 +321,7 @@ main .wrapper {
   padding-top: 1.5%;
 }
 
-.programaCartaoInfo h2 {
+.programaCartaoInfo h3 {
   font-weight: 300;
   font-size: 1rem;
 }
