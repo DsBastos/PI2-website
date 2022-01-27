@@ -17,7 +17,7 @@
   --body-background-color: rgb(242, 242, 242);
   --vermelho: rgb(177, 28, 42);
   --vermelhoHoverEffect: rgba(177, 28, 42, 0.8);
-  --azul: rgb(0, 145, 164);
+  --azul: #0091a4;
   --footer: rgb(81, 81, 81);
   --background-cinzento-color: #d8d9d9;
 }
@@ -106,9 +106,7 @@ ul li {
   font-weight: 500;
 }
 
-li a:hover {
-  color: var(--azul);
-}
+
 
 /*-------------------------------MAIN-----------------------------------------*/
 
@@ -410,7 +408,6 @@ main .wrapper {
   position: relative;
   z-index: 2;
   padding-top: 20vh;
-  padding-bottom: 22vh;
 }
 
 /*triangulo*/
@@ -501,6 +498,7 @@ main .wrapper {
   position: relative;
   z-index: 2;
   padding-bottom: 20vh;
+  padding-top: 22vh;
 }
 
 .textoSobre {
