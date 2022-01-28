@@ -126,6 +126,8 @@ main .wrapper {
   width: 54%;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+  z-index: 1;
 }
 
 .feira {
@@ -161,6 +163,8 @@ main .wrapper {
   width: 45%;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+  z-index: 0;
 }
 
 .scrollDown {
@@ -303,7 +307,7 @@ main .wrapper {
 
 .programaCartaoHora h2 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
   padding-right: 2%;
 }
 
@@ -630,6 +634,9 @@ a {
 
 /* Small devices (landscape phones, less than 576px) */
 @media (max-width: 361px) {
+
+/*------------------------------HEADER------------------------------------------*/
+  
   .logotipo {
     display: block;
   }
@@ -654,11 +661,9 @@ a {
 /*----------------feiraDeEmprego-------------------*/
 
   .containerFeiraDeEmprego {
-    padding-top: 15vh;
-    padding-bottom: 20vh;
-    position: sticky;
-    top: 0;
-    z-index: 0;
+    padding-top: 18vh;
+    padding-bottom: 0;
+    position: static;
   }
 
   .feiraDeEmpregoDataLocal {
@@ -693,60 +698,89 @@ a {
     display: none;
   }
   
+/*----------------infoEvento-------------------*/
 
-/*----------------feiraDeEmprego-------------------*/
+.containerInfoEvento {
+  width: 100%;
+  height: 85vh;
+  padding-top: 20vh;
+  background-color: var(--azul);
+  color: white;
+  position: relative;
+  text-align: justify;
+}
 
-  .programaColunaCentro {
-    width: auto;
-    margin: auto;
-  }
+/*triangulo*/
+.containerInfoEvento::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 9vw solid var(--azul);
+  border-right: 49.43vw solid transparent;
+  border-left: 49.43vw solid transparent;
+}
+
+.eventoTexto {
+  font-size: .8rem;
+}
+
+/*----------------Programa-------------------*/
+
+.containerCartoes {
+  padding-bottom: 2vh;
+}
+
+.programaColunaCentro {
+  width: auto;
+  margin: auto;
+}
   
-  .textoWorkshop h3 {
-    font-size: 1rem;
-  }
+.textoWorkshop h3 {
+  font-size: 1rem;
+}
 
-  .textoWorkshop a {
-    width: 100%;
-  }
+.textoWorkshop a {
+  width: 100%;
+}
 
-  .organizadores {
-    display: inline-block;
-    width: 100%;
-    margin-right: 0;
-    padding-bottom: 6vh;
-  }
+.organizadores {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-bottom: 6vh;
+}
 
-  .parceirosGold {
-    display: inline-block;
-    width: 100%;
-    margin-right: 0;
-    padding-bottom: 6vh;
-  }
+.parceirosGold {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-bottom: 6vh;
+}
 
-  .organizadores .logosDosOrganizadores div {
-    display: inline-block;
-    width: 32%;
-    vertical-align: middle;
-  }
+.organizadores .logosDosOrganizadores div {
+  display: inline-block;
+  width: 32%;
+  vertical-align: middle;
+}
 
-  .logosDosOrganizadores img:last-of-type {
-    padding-right: 0;
-  }
+.logosDosOrganizadores img:last-of-type {
+  padding-right: 0;
+}
 
-  .parceirosSilver .logosDosParceirosSilver div {
-    display: inline-block;
-    width: 16%;
-    vertical-align: middle;
-    margin-right: 5.5%;
-  }
+.parceirosSilver .logosDosParceirosSilver div {
+  display: inline-block;
+  width: 16%;
+  vertical-align: middle;
+  margin-right: 5.5%;
+}
 
-  .parceirosGold .logosDosParceirosGold div {
-    display: inline-block;
-    width: 32%;
-    vertical-align: middle;
-  }
+.parceirosGold .logosDosParceirosGold div {
+  display: inline-block;
+  width: 32%;
+  vertical-align: middle;
+}
 
-  .logosDosParceirosGold img:last-of-type {
-    padding-right: 0;
-  }
+.logosDosParceirosGold img:last-of-type {
+  padding-right: 0;
+}
 }
