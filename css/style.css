@@ -651,12 +651,19 @@ a {
     font-size: 0.9rem;
   }
 
+/*----------------feiraDeEmprego-------------------*/
+
   .containerFeiraDeEmprego {
-    padding-top: 18vh;
+    padding-top: 15vh;
     padding-bottom: 20vh;
     position: sticky;
     top: 0;
     z-index: 0;
+  }
+
+  .feiraDeEmpregoDataLocal {
+    width: 100%;
+    padding-bottom: 2vh;
   }
 
   .feira {
@@ -665,6 +672,29 @@ a {
   .emprego {
     font-size: 3.2rem;
   }
+
+  .feiraDeEmpregoDataLocal p {
+    font-size: .85rem;
+  }
+  
+  .feiraDeEmpregoDataLocal h2 {
+    font-size: 1.1rem;
+  }
+  
+  .feiraDeEmpregoDataLocal h3 {
+    font-size: 1.5rem;
+  }
+
+  .imagemHeroi {
+    width: 100%;
+  }
+  
+  .scrollDown {
+    display: none;
+  }
+  
+
+/*----------------feiraDeEmprego-------------------*/
 
   .programaColunaCentro {
     width: auto;
