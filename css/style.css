@@ -629,155 +629,157 @@ a {
   cursor: pointer;
 }
 
-/* Small devices (landscape phones, less than 576px) */
+/* Small devices (landscape phones, less than 361px) */
 @media (max-width: 361px) {
 
-  /*------------------------------HEADER------------------------------------------*/
+/*------------------------------HEADER------------------------------------------*/
     
-    .logotipo {
-      display: block;
-    }
-    .logoDescription {
-      font-size: 0.98rem;
-      margin-left: 1.6rem;
-    }
+.logotipo {
+  display: block;
+}
+
+.logoDescription {
+  font-size: 0.98rem;
+  margin-left: 1.6rem;
+}
   
-    ul li:first-of-type {
-      margin-left: 0;
-    }
+ul li:first-of-type {
+  margin-left: 0;
+}
   
-    ul li {
-      float: left;
-      padding-left: 3px;
-      padding-right: 3px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      font-size: 0.9rem;
-    }
+ul li {
+  float: left;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
   
-  /*----------------feiraDeEmprego-------------------*/
+/*----------------feiraDeEmprego-------------------*/
   
-    .containerFeiraDeEmprego {
-      padding-top: 18vh;
-      padding-bottom: 0;
-      position: static;
-    }
+.containerFeiraDeEmprego {
+  padding-top: 18vh;
+  padding-bottom: 0;
+  position: static;
+}
   
-    .feiraDeEmpregoDataLocal {
-      width: 100%;
-      padding-bottom: 2vh;
-    }
+.feiraDeEmpregoDataLocal {
+  width: 100%;
+  padding-bottom: 2vh;
+}
   
-    .feira {
-      font-size: 3.2rem;
-    }
-    .emprego {
-      font-size: 3.2rem;
-    }
+.feira {
+  font-size: 3.2rem;
+}
   
-    .feiraDeEmpregoDataLocal p {
-      font-size: .85rem;
-    }
+.emprego {
+  font-size: 3.2rem;
+}
+  
+.feiraDeEmpregoDataLocal p {
+  font-size: .85rem;
+}
     
-    .feiraDeEmpregoDataLocal h2 {
-      font-size: 1.1rem;
-    }
+.feiraDeEmpregoDataLocal h2 {
+  font-size: 1.1rem;
+}
     
-    .feiraDeEmpregoDataLocal h3 {
-      font-size: 1.5rem;
-    }
+.feiraDeEmpregoDataLocal h3 {
+  font-size: 1.5rem;
+}
   
-    .imagemHeroi {
-      width: 100%;
-    }
+.imagemHeroi {
+  width: 100%;
+}
     
-    .scrollDown {
-      display: none;
-    }
+.scrollDown {
+  display: none;
+}
     
-  /*----------------infoEvento-------------------*/
+/*----------------infoEvento-------------------*/
   
-  .containerInfoEvento {
-    width: 100%;
-    height: 85vh;
-    padding-top: 20vh;
-    background-color: var(--azul);
-    color: white;
-    position: relative;
-    text-align: justify;
-  }
+.containerInfoEvento {
+  width: 100%;
+  height: 85vh;
+  padding-top: 20vh;
+  background-color: var(--azul);
+  color: white;
+  position: relative;
+  text-align: justify;
+}
   
-  /*triangulo*/
-  .containerInfoEvento::before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    border-bottom: 9vw solid var(--azul);
-    border-right: 49.43vw solid transparent;
-    border-left: 49.43vw solid transparent;
-  }
+/*triangulo*/
+.containerInfoEvento::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 9vw solid var(--azul);
+  border-right: 49.43vw solid transparent;
+  border-left: 49.43vw solid transparent;
+}
   
-  .eventoTexto {
-    font-size: .8rem;
-  }
+.eventoTexto {
+  font-size: .8rem;
+}
   
-  /*----------------Programa-------------------*/
+/*----------------Programa-------------------*/
   
-  .containerCartoes {
-    padding-bottom: 2vh;
-  }
+.containerCartoes {
+  padding-bottom: 2vh;
+}
   
-  .programaColunaCentro {
-    width: auto;
-    margin: auto;
-  }
+.programaColunaCentro {
+  width: auto;
+  margin: auto;
+}
     
-  .textoWorkshop h3 {
-    font-size: 1rem;
-  }
+.textoWorkshop h3 {
+  font-size: 1rem;
+}
   
-  .textoWorkshop a {
-    width: 100%;
-  }
+.textoWorkshop a {
+  width: 100%;
+}
   
-  .organizadores {
-    display: inline-block;
-    width: 100%;
-    margin-right: 0;
-    padding-bottom: 6vh;
-  }
+.organizadores {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-bottom: 6vh;
+}
   
-  .parceirosGold {
-    display: inline-block;
-    width: 100%;
-    margin-right: 0;
-    padding-bottom: 6vh;
-  }
+.parceirosGold {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-bottom: 6vh;
+}
   
-  .organizadores .logosDosOrganizadores div {
-    display: inline-block;
-    width: 32%;
-    vertical-align: middle;
-  }
+.organizadores .logosDosOrganizadores div {
+  display: inline-block;
+  width: 32%;
+  vertical-align: middle;
+}
   
-  .logosDosOrganizadores img:last-of-type {
-    padding-right: 0;
-  }
+.logosDosOrganizadores img:last-of-type {
+  padding-right: 0;
+}
   
-  .parceirosSilver .logosDosParceirosSilver div {
-    display: inline-block;
-    width: 16%;
-    vertical-align: middle;
-    margin-right: 5.5%;
-  }
+.parceirosSilver .logosDosParceirosSilver div {
+  display: inline-block;
+  width: 16%;
+  vertical-align: middle;
+  margin-right: 5.5%;
+}
   
-  .parceirosGold .logosDosParceirosGold div {
-    display: inline-block;
-    width: 32%;
-    vertical-align: middle;
-  }
+.parceirosGold .logosDosParceirosGold div {
+  display: inline-block;
+  width: 32%;
+  vertical-align: middle;
+}
   
-  .logosDosParceirosGold img:last-of-type {
-    padding-right: 0;
-  }
-  }
+.logosDosParceirosGold img:last-of-type {
+  padding-right: 0;
+}
+}
