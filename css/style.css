@@ -127,6 +127,8 @@ main .wrapper {
   width: 54%;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+  z-index: 1;
 }
 
 .feira {
@@ -162,11 +164,14 @@ main .wrapper {
   width: 45%;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+  z-index: 0;
 }
 
 .scrollDown {
   width: 1.8vw;
-  margin: auto;
+  margin-left: 49%;
+  margin-right: 49%;
   opacity: 0.3;
 }
 
@@ -190,8 +195,9 @@ main .wrapper {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--azul);
-  border-right: 49.43vw solid transparent;
-  border-left: 49.43vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  border-left: 49.4vw solid transparent;
+  width: 100%;
 }
 
 .eventoTexto {
@@ -231,8 +237,9 @@ main .wrapper {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 49.43vw solid transparent;
-  border-left: 49.43vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  border-left: 49.4vw solid transparent;
+  width: 100%;
 }
 
 .diaDoAno {
@@ -346,8 +353,9 @@ main .wrapper {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--background-cinzento-color);
-  border-right: 49.43vw solid transparent;
-  border-left: 49.43vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  border-left: 49.4vw solid transparent;
+  width: 100%;
 }
 
 .textoWorkshop {
@@ -412,8 +420,9 @@ main .wrapper {
   position: absolute;
   bottom: 100%;
   border-bottom: 9vw solid var(--body-background-color);
-  border-right: 49.43vw solid transparent;
-  border-left: 49.43vw solid transparent;
+  border-right: 49.4vw solid transparent;
+  border-left: 49.4vw solid transparent;
+  width: 100%;
 }
 
 .logosDosOrganizadores img {
@@ -513,7 +522,7 @@ main .wrapper {
 }
 
 .textoSobre p {
-  text-align: justify;
+  text-align: left;
   line-height: 1.8;
   font-size: 1rem;
 }
