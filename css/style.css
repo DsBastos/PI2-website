@@ -304,7 +304,7 @@ main .wrapper {
 
 .programaCartaoHora h2 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
   padding-right: 2%;
 }
 
@@ -730,9 +730,38 @@ ul li {
 }
   
 .programaColunaCentro {
-  width: auto;
-  margin: auto;
+  width: 100%;
 }
+
+.programaColunaEsquerda {
+  width: 100%;
+  display: block;
+}
+
+.programaColunaDireita {
+  display: block;
+  width: 100%;
+  margin-bottom: 17%;
+}
+
+.programaCartaoHora h2 {
+  font-size: 1.75rem;
+}
+
+.programaCartaoInfo h3 {
+  font-size: 1rem;
+}
+
+.programaCartaoInfo span.nomeEmpresa {
+  font-size: 1.125rem;
+}
+
+.programaCartaoInfo span.nomeApelido {
+  font-size: 1rem;
+}
+
+/*----------------Programa-------------------*/
+
     
 .textoWorkshop h3 {
   font-size: 1rem;
