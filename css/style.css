@@ -875,6 +875,7 @@ a {
     padding-bottom: 2rem;
   }
 
+  /*----------------Footer-------------------*/
 
   .containerFooterInfo,
   .containerRedesSociais {
@@ -894,8 +895,8 @@ a {
   .simboloFooter {
     width: 50px;
     margin: 2%;
-}
-.footer-texto-privacidade-direitos{
+  }
+  .footer-texto-privacidade-direitos{
   margin-left: 2%;
-}
+  }
 }
