@@ -283,8 +283,8 @@ main .wrapper {
   display: inline-block;
   padding-top: 1vh;
   padding-bottom: 4vh;
-  padding-right: 5vh;
-  padding-left: 5vh;
+  padding-right: 4vh;
+  padding-left: 4vh;
 }
 
 .programaColunaCentro {
@@ -734,6 +734,7 @@ a {
 
   .eventoTexto {
     font-size: 0.8rem;
+    text-align: justify;
   }
 
   /*----------------Programa-------------------*/
@@ -856,7 +857,7 @@ a {
   }
 
   .textoSobre p {
-    text-align: left;
+    text-align: justify;
     line-height: 1.8;
   }
 
