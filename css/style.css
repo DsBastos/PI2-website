@@ -73,7 +73,6 @@ header .wrapper {
   padding-bottom: 1%;
 }
 
-
 .logotipo {
   display: inline-block;
   vertical-align: middle;
@@ -215,7 +214,7 @@ main .wrapper {
   background-color: var(--vermelho);
 }
 
-.azul{
+.azul {
   background-color: var(--azul);
 }
 
@@ -493,7 +492,6 @@ main .wrapper {
   margin-left: 10%;
 }
 
-
 /*----------------sobre-------------------*/
 
 .containerSobre {
@@ -566,7 +564,8 @@ footer .wrapper {
   text-align: start;
 }
 
-.containerFooterInfo, .containerRedesSociais {
+.containerFooterInfo,
+.containerRedesSociais {
   display: inline-block;
   padding: 0 2% 0 2%; /*top, right, bottom, left*/
   vertical-align: middle;
@@ -641,216 +640,254 @@ a {
 
 /* Small devices (landscape phones, less than 361px) */
 @media (max-width: 361px) {
+  /*------------------------------HEADER------------------------------------------*/
+  .floatRight{
+    float: none;
+  } 
+  
+  .logotipo {
+    display: block;
+  }
 
-/*------------------------------HEADER------------------------------------------*/
-    
-.logotipo {
-  display: block;
-}
+  .logoDescription {
+    font-size: 0.98rem;
+    margin-left: 1.6rem;
+  }
 
-.logoDescription {
-  font-size: 0.98rem;
-  margin-left: 1.6rem;
-}
-  
-ul li:first-of-type {
-  margin-left: 0;
-}
-  
-ul li {
-  padding-left: 3px;
-  padding-right: 3px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 0.9rem;
-}
-  
-/*----------------feiraDeEmprego-------------------*/
-  
-.containerFeiraDeEmprego {
-  padding-top: 18vh;
-  padding-bottom: 0;
-  position: static;
-}
-  
-.feiraDeEmpregoDataLocal {
-  width: 100%;
-  padding-bottom: 2vh;
-}
-  
-.feira {
-  font-size: 3.2rem;
-}
-  
-.emprego {
-  font-size: 3.2rem;
-}
-  
-.feiraDeEmpregoDataLocal p {
-  font-size: .85rem;
-}
-    
-.feiraDeEmpregoDataLocal h2 {
-  font-size: 1.1rem;
-}
-    
-.feiraDeEmpregoDataLocal h3 {
-  font-size: 1.5rem;
-}
-  
-.imagemHeroi {
-  width: 100%;
-}
-    
-.scrollDown {
-  display: none;
-}
-    
-/*----------------infoEvento-------------------*/
-  
-.containerInfoEvento {
-  width: 100%;
-  height: 85vh;
-  padding-top: 20vh;
-  background-color: var(--azul);
-  color: white;
-  position: relative;
-  text-align: justify;
-}
-  
-/*triangulo*/
-.containerInfoEvento::before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  border-bottom: 9vw solid var(--azul);
-  border-right: 49.43vw solid transparent;
-  border-left: 49.43vw solid transparent;
-}
-  
-.eventoTexto {
-  font-size: .8rem;
-}
-  
-/*----------------Programa-------------------*/
-  
-.containerCartoes {
-  padding-bottom: 2vh;
-}
-  
-.programaColunaCentro {
-  width: 100%;
-}
+  ul li:first-of-type {
+    margin-left: 0;
+  }
 
-.programaColunaEsquerda {
-  width: 100%;
-  display: block;
-}
+  ul li {
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
 
-.programaColunaDireita {
-  display: block;
-  width: 100%;
-  margin-bottom: 17%;
-}
+  /*----------------feiraDeEmprego-------------------*/
 
-.programaCartaoHora h2 {
-  font-size: 1.5rem;
-}
+  .containerFeiraDeEmprego {
+    padding-top: 18vh;
+    padding-bottom: 0;
+    position: static;
+  }
 
-.programaCartaoInfo h3 {
-  font-size: .8rem;
-}
+  .feiraDeEmpregoDataLocal {
+    width: 100%;
+    padding-bottom: 2vh;
+  }
 
-.programaCartaoInfo span.nomeEmpresa {
-  font-size: 1rem;
-}
+  .feira {
+    font-size: 3.2rem;
+  }
 
-.programaCartaoInfo span.nomeApelido {
-  font-size: .8rem;
-}
+  .emprego {
+    font-size: 3.2rem;
+  }
 
-/*----------------Workshop-------------------*/
-    
-.textoWorkshop h3 {
-  font-size: 1rem;
-}
-  
-.textoWorkshop a {
-  width: 100%;
-}
+  .feiraDeEmpregoDataLocal p {
+    font-size: 0.85rem;
+  }
 
-.textoWorkshop p {
-  display: none;
+  .feiraDeEmpregoDataLocal h2 {
+    font-size: 1.1rem;
+  }
+
+  .feiraDeEmpregoDataLocal h3 {
+    font-size: 1.5rem;
+  }
+
+  .imagemHeroi {
+    width: 100%;
+  }
+
+  .scrollDown {
+    display: none;
+  }
+
+  /*----------------infoEvento-------------------*/
+
+  .containerInfoEvento {
+    width: 100%;
+    height: 85vh;
+    padding-top: 20vh;
+    background-color: var(--azul);
+    color: white;
+    position: relative;
+    text-align: justify;
+  }
+
+  /*triangulo*/
+  .containerInfoEvento::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    border-bottom: 9vw solid var(--azul);
+    border-right: 49.43vw solid transparent;
+    border-left: 49.43vw solid transparent;
+  }
+
+  .eventoTexto {
+    font-size: 0.8rem;
+  }
+
+  /*----------------Programa-------------------*/
+
+  .containerCartoes {
+    padding-bottom: 2vh;
+  }
+
+  .programaColunaCentro {
+    width: 100%;
+  }
+
+  .programaColunaEsquerda {
+    width: 100%;
+    display: block;
+  }
+
+  .programaColunaDireita {
+    display: block;
+    width: 100%;
+    margin-bottom: 17%;
+  }
+
+  .programaCartaoHora h2 {
+    font-size: 1.5rem;
+  }
+
+  .programaCartaoInfo h3 {
+    font-size: 0.8rem;
+  }
+
+  .programaCartaoInfo span.nomeEmpresa {
+    font-size: 1rem;
+  }
+
+  .programaCartaoInfo span.nomeApelido {
+    font-size: 0.8rem;
+  }
+
+  /*----------------Workshop-------------------*/
+
+  .containerWorkshop {
+    padding-bottom: 40vh;
+}
+  .textoWorkshop {
+    margin-bottom: 4vh;
+    position: unset; 
 }
 
-/*----------------Parceiros-------------------*/
-  
-.organizadores {
-  display: inline-block;
-  width: 100%;
-  margin-right: 0;
-  padding-bottom: 6vh;
-}
-  
-.parceirosGold {
-  display: inline-block;
-  width: 100%;
-  margin-right: 0;
-  padding-bottom: 6vh;
-}
-  
-.organizadores .logosDosOrganizadores div {
-  display: inline-block;
-  width: 29%;
-  vertical-align: middle;
-}
-  
-.logosDosOrganizadores img:last-of-type {
-  padding-right: 0;
-}
-  
-.parceirosSilver .logosDosParceirosSilver div {
-  display: inline-block;
-  width: 16%;
-  vertical-align: middle;
-  margin-right: 5.5%;
-}
-  
-.parceirosGold .logosDosParceirosGold div {
-  display: inline-block;
-  width: 29%;
-  vertical-align: middle;
-}
-  
-.logosDosParceirosGold img:last-of-type {
-  padding-right: 0;
-}
+  .textoWorkshop h3 {
+    font-size: 1rem;
+  }
 
-/*----------------Sobre-------------------*/
+  .textoWorkshop a {
+    width: 100%;
+  }
 
-.textoSobre {
-  display: block;
-  width: 100%;
-  margin-right: 0;
-}
-
-.textoSobre h1 {
-  font-size: 1.8rem;
-}
-
-.textoSobre p {
-  text-align: left;
-  line-height: 1.8;
-}
-
-.imagemSobre {
-  display: block;
-  width: 100%;
-}
-
-.show-scroll {
-  display: none;
-}
+  .textoWorkshop p {
+    display: none;
+  }
 
 
+  /*----------------Parceiros-------------------*/
+
+  .organizadores {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 6vh;
+  }
+
+  .parceirosGold {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 6vh;
+  }
+
+  .organizadores .logosDosOrganizadores div {
+    display: inline-block;
+    width: 29%;
+    vertical-align: middle;
+  }
+
+  .logosDosOrganizadores img:last-of-type {
+    padding-right: 0;
+  }
+
+  .parceirosSilver .logosDosParceirosSilver div {
+    display: inline-block;
+    width: 16%;
+    vertical-align: middle;
+    margin-right: 5.5%;
+  }
+
+  .parceirosGold .logosDosParceirosGold div {
+    display: inline-block;
+    width: 29%;
+    vertical-align: middle;
+  }
+
+  .logosDosParceirosGold img:last-of-type {
+    padding-right: 0;
+  }
+
+  /*----------------Sobre-------------------*/
+
+  .textoSobre {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .textoSobre h1 {
+    font-size: 1.8rem;
+  }
+
+  .textoSobre p {
+    text-align: left;
+    line-height: 1.8;
+  }
+
+  .imagemSobre {
+    display: block;
+    width: 100%;
+  }
+
+  .show-scroll {
+    display: none;
+  }
+
+  .containerFooter{
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+
+
+  .containerFooterInfo,
+  .containerRedesSociais {
+    display: inline-block;
+    padding: 0 2% 0 2%;
+    vertical-align: middle;
+    margin-top: 2rem;
+  }
+
+  .textoEndereco {
+    width: 8rem;
+  }
+  .FooterIcon {
+    vertical-align: top;
+  }
+
+  .simboloFooter {
+    width: 50px;
+    margin: 2%;
+}
+.footer-texto-privacidade-direitos{
+  margin-left: 2%;
+}
 }
