@@ -178,14 +178,15 @@ main .wrapper {
 
 .containerInfoEvento {
   width: 100%;
-  height: 85vh;
-  padding-top: 20vh;
+  padding-top: 10vh;
   background-color: var(--azul);
   color: white;
   position: sticky;
   top: 19vh;
   z-index: 1;
-  text-align: justify;
+  text-align: left;
+  padding-bottom: 30vh;
+  
 }
 
 /*triangulo*/
@@ -282,8 +283,8 @@ main .wrapper {
   display: inline-block;
   padding-top: 1vh;
   padding-bottom: 4vh;
-  padding-right: 2vh;
-  padding-left: 2vh;
+  padding-right: 5vh;
+  padding-left: 5vh;
 }
 
 .programaColunaCentro {
@@ -711,12 +712,14 @@ a {
 
   .containerInfoEvento {
     width: 100%;
-    height: 85vh;
-    padding-top: 20vh;
+    margin-top: 11vh;
+    margin-bottom: 11vh;
     background-color: var(--azul);
     color: white;
     position: relative;
-    text-align: justify;
+    text-align: left;
+    padding-top: 5vh;
+    padding-bottom: 10rem;
   }
 
   /*triangulo*/
@@ -734,6 +737,10 @@ a {
   }
 
   /*----------------Programa-------------------*/
+  .containerPrograma {
+    padding-bottom: 10vh;
+}
+
 
   .containerCartoes {
     padding-bottom: 2vh;
@@ -773,7 +780,7 @@ a {
   /*----------------Workshop-------------------*/
 
   .containerWorkshop {
-    padding-bottom: 40vh;
+    padding-bottom: 10vh;
 }
   .textoWorkshop {
     margin-bottom: 4vh;
