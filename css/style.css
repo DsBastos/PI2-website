@@ -630,6 +630,9 @@ a {
 
 /* Small devices (landscape phones, less than 576px) */
 @media (max-width: 361px) {
+
+/*------------------------------HEADER------------------------------------------*/
+  
   .logotipo {
     display: block;
   }
@@ -654,11 +657,9 @@ a {
 /*----------------feiraDeEmprego-------------------*/
 
   .containerFeiraDeEmprego {
-    padding-top: 15vh;
-    padding-bottom: 20vh;
-    position: sticky;
-    top: 0;
-    z-index: 0;
+    padding-top: 18vh;
+    padding-bottom: 0;
+    position: static;
   }
 
   .feiraDeEmpregoDataLocal {
@@ -693,6 +694,31 @@ a {
     display: none;
   }
   
+/*----------------infoEvento-------------------*/
+
+.containerInfoEvento {
+  width: 100%;
+  height: 85vh;
+  padding-top: 20vh;
+  background-color: var(--azul);
+  color: white;
+  position: relative;
+  text-align: justify;
+}
+
+/*triangulo*/
+.containerInfoEvento::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 9vw solid var(--azul);
+  border-right: 49.43vw solid transparent;
+  border-left: 49.43vw solid transparent;
+}
+
+.eventoTexto {
+  font-size: .8rem;
+}
 
 /*----------------feiraDeEmprego-------------------*/
 
