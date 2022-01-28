@@ -503,7 +503,7 @@ main .wrapper {
 }
 
 .textoSobre h1 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 5%;
 }
@@ -515,6 +515,7 @@ main .wrapper {
 .textoSobre p {
   text-align: justify;
   line-height: 1.8;
+  font-size: 1rem;
 }
 
 .imagemSobre {
@@ -648,7 +649,6 @@ ul li:first-of-type {
 }
   
 ul li {
-  float: left;
   padding-left: 3px;
   padding-right: 3px;
   margin-top: 10px;
@@ -745,23 +745,22 @@ ul li {
 }
 
 .programaCartaoHora h2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .programaCartaoInfo h3 {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .programaCartaoInfo span.nomeEmpresa {
-  font-size: 1.125rem;
-}
-
-.programaCartaoInfo span.nomeApelido {
   font-size: 1rem;
 }
 
-/*----------------Programa-------------------*/
+.programaCartaoInfo span.nomeApelido {
+  font-size: .8rem;
+}
 
+/*----------------Workshop-------------------*/
     
 .textoWorkshop h3 {
   font-size: 1rem;
@@ -770,6 +769,12 @@ ul li {
 .textoWorkshop a {
   width: 100%;
 }
+
+.textoWorkshop p {
+  display: none;
+}
+
+/*----------------Parceiros-------------------*/
   
 .organizadores {
   display: inline-block;
@@ -787,7 +792,7 @@ ul li {
   
 .organizadores .logosDosOrganizadores div {
   display: inline-block;
-  width: 32%;
+  width: 29%;
   vertical-align: middle;
 }
   
@@ -804,11 +809,39 @@ ul li {
   
 .parceirosGold .logosDosParceirosGold div {
   display: inline-block;
-  width: 32%;
+  width: 29%;
   vertical-align: middle;
 }
   
 .logosDosParceirosGold img:last-of-type {
   padding-right: 0;
 }
+
+/*----------------Sobre-------------------*/
+
+.textoSobre {
+  display: block;
+  width: 100%;
+  margin-right: 0;
+}
+
+.textoSobre h1 {
+  font-size: 1.8rem;
+}
+
+.textoSobre p {
+  text-align: left;
+  line-height: 1.8;
+}
+
+.imagemSobre {
+  display: block;
+  width: 100%;
+}
+
+.show-scroll {
+  display: none;
+}
+
+
 }
