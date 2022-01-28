@@ -661,9 +661,13 @@ a {
 
   .feira {
     font-size: 3.2rem;
+    font-weight: normal;
+    margin-bottom: -6%;
   }
   .emprego {
     font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--vermelho);
   }
 
   .programaColunaCentro {
@@ -675,7 +679,7 @@ a {
     font-size: 1rem;
   }
 
-  .textoWorkshop a {
+  .textoWorkshop a{
     width: 100%;
   }
 
