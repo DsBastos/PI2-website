@@ -453,7 +453,7 @@ main .wrapper {
 
 .organizadores .logosDosOrganizadores div {
   display: inline-block;
-  width: 180px;
+  width: 13rem;
   vertical-align: middle;
 }
 
@@ -465,7 +465,7 @@ main .wrapper {
 
 .parceirosGold .logosDosParceirosGold div {
   display: inline-block;
-  width: 180px;
+  width: 13rem;
   vertical-align: middle;
 }
 
@@ -480,7 +480,7 @@ main .wrapper {
 
 .parceirosSilver .logosDosParceirosSilver div {
   display: inline-block;
-  width: 114px;
+  width: 7rem;
   vertical-align: middle;
   margin-right: 5.5%;
 }
