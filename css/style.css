@@ -665,7 +665,7 @@ a {
     padding-right: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   /*----------------feiraDeEmprego-------------------*/
@@ -693,11 +693,11 @@ a {
     font-size: 0.85rem;
   }
 
-  .feiraDeEmpregoDataLocal h2 {
+  .feiraDeEmpregoDataLocal h3 {
     font-size: 1.1rem;
   }
 
-  .feiraDeEmpregoDataLocal h3 {
+  .feiraDeEmpregoDataLocal h4 {
     font-size: 1.5rem;
   }
 
@@ -712,40 +712,27 @@ a {
   /*----------------infoEvento-------------------*/
 
   .containerInfoEvento {
-    width: 100%;
-    margin-top: 11vh;
+    margin-top: 0;
     margin-bottom: 11vh;
-    background-color: var(--azul);
-    color: white;
     position: relative;
-    text-align: left;
     padding-top: 5vh;
-    padding-bottom: 10rem;
-  }
-
-  /*triangulo*/
-  .containerInfoEvento::before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    border-bottom: 9vw solid var(--azul);
-    border-right: 49.43vw solid transparent;
-    border-left: 49.43vw solid transparent;
+    padding-bottom: 20vh;
   }
 
   .eventoTexto {
     font-size: 0.8rem;
-    text-align: justify;
   }
 
   /*----------------Programa-------------------*/
+  
   .containerPrograma {
     padding-bottom: 10vh;
-}
-
+    padding-top: 10vh;
+  }
 
   .containerCartoes {
-    padding-bottom: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
   }
 
   .programaColunaCentro {
@@ -760,7 +747,6 @@ a {
   .programaColunaDireita {
     display: block;
     width: 100%;
-    margin-bottom: 17%;
   }
 
   .programaCartaoHora h2 {
@@ -783,11 +769,12 @@ a {
 
   .containerWorkshop {
     padding-bottom: 10vh;
-}
+    padding-top: 10vh;
+  }
+
   .textoWorkshop {
     margin-bottom: 4vh;
-    position: unset; 
-}
+  }
 
   .textoWorkshop h3 {
     font-size: 1rem;
@@ -800,7 +787,6 @@ a {
   .textoWorkshop p {
     display: none;
   }
-
 
   /*----------------Parceiros-------------------*/
 
