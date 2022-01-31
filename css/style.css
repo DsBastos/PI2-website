@@ -906,9 +906,20 @@ a {
   .simboloFooter {
     width: 17%;
     padding-top: 0;
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+
+  .wrapperRedesSociais {
+    width: 17%;
+  }
+
+  .wrapperRedesSociais .FooterIcon {
+    width: 1.4rem;
   }
 
   .footer-texto-privacidade-direitos{
     margin-left: 2%;
+    font-size: .7rem;
   }
 }
