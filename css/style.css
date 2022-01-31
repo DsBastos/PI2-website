@@ -13,15 +13,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --body-background-color: rgb(242, 242, 242);
-  --vermelho: rgb(177, 28, 42);
-  --vermelhoHoverEffect: rgba(177, 28, 42, 0.8);
-  --azul: #0091a4;
-  --footer: rgb(81, 81, 81);
-  --background-cinzento-color: #d8d9d9;
-}
-
 /*
     Remove list styles (bullets/numbers)
     in case you use it with normalize.css
@@ -47,6 +38,15 @@ textarea {
 }
 
 /*-----------------------------------------------------------------------------------*/
+:root {
+  --body-background-color: rgb(242, 242, 242);
+  --vermelho: rgb(177, 28, 42);
+  --vermelhoHoverEffect: rgba(177, 28, 42, 0.8);
+  --azul: #0091a4;
+  --footer: rgb(81, 81, 81);
+  --background-cinzento-color: #d8d9d9;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -96,6 +96,10 @@ header .wrapper {
   font-weight: 300;
   font-size: 1.125rem;
   margin-left: 1rem;
+}
+
+ul {
+  display: inline;
 }
 
 ul li {
