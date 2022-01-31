@@ -482,14 +482,19 @@ main .wrapper {
   margin-bottom: 0;
 }
 
-.parceirosSilver .logosDosParceirosSilver div {
+.parceirosSilverLinha {
+  width: 100%;
+  display: inline-block;
+}
+
+.parceirosSilverLinha div {
   display: inline-block;
   width: 7rem;
   vertical-align: middle;
   margin-right: 5.5%;
 }
 
-.parceirosSilver .logosDosParceirosSilver div:last-of-type {
+.parceirosSilverLinha div:last-of-type {
   margin-right: 0;
 }
 
@@ -614,7 +619,7 @@ footer .wrapper {
   z-index: 3;
   background-color: var(--vermelho);
   right: 2%;
-  opacity: 87%;
+  opacity: 92%;
   padding: 0 0.3rem;
   border-radius: 0.4rem;
   display: none;
