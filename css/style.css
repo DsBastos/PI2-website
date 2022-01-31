@@ -41,7 +41,6 @@ textarea {
 :root {
   --body-background-color: rgb(242, 242, 242);
   --vermelho: rgb(177, 28, 42);
-  --vermelhoHoverEffect: rgba(177, 28, 42, 0.8);
   --azul: #0091a4;
   --footer: rgb(81, 81, 81);
   --background-cinzento-color: #d8d9d9;
@@ -623,10 +622,6 @@ footer .wrapper {
   padding: 0 0.3rem;
   border-radius: 0.4rem;
   display: none;
-}
-
-.scrollUp:hover {
-  background-color: var(--vermelhoHoverEffect);
 }
 
 .scrollUp__icon {
