@@ -584,8 +584,9 @@ footer .wrapper {
 }
 
 .simboloFooter {
-  width: 50px;
-  margin: 1%;
+  width: 4%;
+  margin: auto;
+  padding-top: 2%;
 }
 
 .containerTermos {
@@ -883,24 +884,31 @@ a {
 
   .containerFooterInfo,
   .containerRedesSociais {
-    display: inline-block;
-    padding: 0 2% 0 2%;
-    vertical-align: middle;
     margin-top: 2rem;
+    width: 100%;
   }
 
   .textoEndereco {
-    width: 8rem;
+    width: 100%;
   }
+
   .FooterIcon {
     vertical-align: top;
+    width: 7%;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+
+  .iconFooterTexto {
+    width: 89%;
   }
 
   .simboloFooter {
-    width: 50px;
-    margin: 2%;
+    width: 17%;
+    padding-top: 0;
   }
+
   .footer-texto-privacidade-direitos{
-  margin-left: 2%;
+    margin-left: 2%;
   }
 }
