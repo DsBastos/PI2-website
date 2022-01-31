@@ -651,20 +651,26 @@ a {
     display: block;
   }
 
+  .logoImagem img {
+    width: 2.5rem;
+  }
+
   .logoDescription {
     font-size: 0.98rem;
     margin-left: 1.6rem;
   }
 
   ul li:first-of-type {
-    margin-left: 0;
+    margin-right: 0;
   }
 
   ul li {
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1.98%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     font-size: 0.8rem;
   }
 
@@ -724,10 +730,10 @@ a {
   }
 
   /*----------------Programa-------------------*/
-  
+
   .containerPrograma {
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 12vh;
+    padding-top: 12vh;
   }
 
   .containerCartoes {
@@ -768,8 +774,8 @@ a {
   /*----------------Workshop-------------------*/
 
   .containerWorkshop {
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 12vh;
+    padding-top: 12vh;
   }
 
   .textoWorkshop {
@@ -790,62 +796,73 @@ a {
 
   /*----------------Parceiros-------------------*/
 
+  .containerParceiros {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+  }
+
+  .containerParceiros h2 {
+    font-size: 1rem;
+  }
+
   .organizadores {
-    display: inline-block;
     width: 100%;
     margin-right: 0;
-    padding-bottom: 6vh;
+    padding-bottom: 5vh;
   }
 
   .parceirosGold {
-    display: inline-block;
     width: 100%;
     margin-right: 0;
-    padding-bottom: 6vh;
+    padding-bottom: 5vh;
   }
 
-  .organizadores .logosDosOrganizadores div {
-    display: inline-block;
-    width: 29%;
-    vertical-align: middle;
+  .logosDosOrganizadores div, 
+  .logosDosParceirosGold div {
+    width: 26%;
+    margin-right: 9.5%;
   }
 
-  .logosDosOrganizadores img:last-of-type {
+  .logosDosOrganizadores div:last-of-type, 
+  .logosDosParceirosGold div:last-of-type {
+    margin-right: 0;
+  }
+
+  .logosDosOrganizadores img:last-of-type, 
+  .logosDosParceirosGold img:last-of-type  {
     padding-right: 0;
   }
 
-  .parceirosSilver .logosDosParceirosSilver div {
-    display: inline-block;
+  .parceirosSilverLinha div {
     width: 16%;
-    vertical-align: middle;
-    margin-right: 5.5%;
+    margin-right: 10%;
+    margin-bottom: 3%;
   }
 
-  .parceirosGold .logosDosParceirosGold div {
-    display: inline-block;
-    width: 29%;
-    vertical-align: middle;
-  }
-
-  .logosDosParceirosGold img:last-of-type {
-    padding-right: 0;
+  .parceirosSilverLinha .ultimoMobile {
+    margin-right: 0;
   }
 
   /*----------------Sobre-------------------*/
 
+  .containerSobre {
+    padding-bottom: 12vh;
+    padding-top: 12vh;
+  }
+
   .textoSobre {
-    display: block;
     width: 100%;
     margin-right: 0;
   }
 
-  .textoSobre h1 {
-    font-size: 1.8rem;
+  .textoSobre h2 {
+    font-size: 1.4rem;
   }
 
   .textoSobre p {
-    text-align: justify;
+    text-align: left;
     line-height: 1.8;
+    font-size: .8rem;
   }
 
   .imagemSobre {
