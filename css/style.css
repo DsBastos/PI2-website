@@ -515,13 +515,13 @@ main .wrapper {
   margin-right: 11%;
 }
 
-.textoSobre h1 {
+.textoSobre h2 {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 5%;
 }
 
-.textoSobre h1 span {
+.textoSobre h2 span {
   color: var(--azul);
 }
 
@@ -611,13 +611,13 @@ footer .wrapper {
 
 .scrollUp {
   position: fixed;
-  right: 1rem;
+  z-index: 3;
   background-color: var(--vermelho);
+  right: 2%;
   opacity: 87%;
   padding: 0 0.3rem;
   border-radius: 0.4rem;
-  z-index: 3;
-  transition: 0.4s;
+  display: none;
 }
 
 .scrollUp:hover {
@@ -631,7 +631,9 @@ footer .wrapper {
 
 /* Show scroll */
 .show-scroll {
-  bottom: 2rem;
+  transition: 0.4s;
+  bottom: 2%;
+  display: block;
 }
 
 a.scrollUp img {
