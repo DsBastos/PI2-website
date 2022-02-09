@@ -934,7 +934,7 @@ a {
 
 
 /* Small devices (landscape phones, less than 361px) */
-@media (max-width: 576px) {
+@media (min-width: 362px) and (max-width: 576px) {
   /*------------------------------HEADER------------------------------------------*/
   .floatRight{
     float: none;
