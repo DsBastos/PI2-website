@@ -931,3 +931,302 @@ a {
     font-size: .7rem;
   }
 }
+
+
+/* Small devices (landscape phones, less than 361px) */
+@media (max-width: 576px) {
+  /*------------------------------HEADER------------------------------------------*/
+  .floatRight{
+    float: none;
+  } 
+  
+  .logotipo {
+    display: block;
+  }
+
+  .logoImagem img {
+    width: 2.5rem;
+  }
+
+  .logoDescription {
+    font-size: 0.98rem;
+    margin-left: 5.7rem;
+  }
+
+  ul li:first-of-type {
+    margin-right: 0;
+  }
+
+  ul li:last-of-type {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  ul li {
+    padding-left: 3.4%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 3.4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+  }
+
+  /*----------------feiraDeEmprego-------------------*/
+
+  .containerFeiraDeEmprego {
+    padding-top: 18vh;
+    padding-bottom: 0;
+    position: static;
+  }
+
+  .feiraDeEmpregoDataLocal {
+    width: 100%;
+    padding-bottom: 2vh;
+  }
+
+  .feira {
+    font-size: 3.2rem;
+  }
+
+  .emprego {
+    font-size: 3.2rem;
+  }
+
+  .feiraDeEmpregoDataLocal p {
+    font-size: 0.85rem;
+  }
+
+  .feiraDeEmpregoDataLocal h3 {
+    font-size: 1.1rem;
+  }
+
+  .feiraDeEmpregoDataLocal h4 {
+    font-size: 1.5rem;
+  }
+
+  .imagemHeroi {
+    width: 100%;
+  }
+
+  .scrollDown {
+    display: none;
+  }
+
+  /*----------------infoEvento-------------------*/
+
+  .containerInfoEvento {
+    margin-top: 0;
+    margin-bottom: 11vh;
+    position: relative;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+  }
+
+  .eventoTexto {
+    font-size: 0.8rem;
+  }
+
+  /*----------------Programa-------------------*/
+
+  .alturaDoDia {
+    display: none;
+  }
+
+  .diaDoAno {
+    margin-bottom: 8%;
+  }
+
+  .containerPrograma {
+    padding-bottom: 12vh;
+    padding-top: 12vh;
+  }
+
+  .containerCartoes {
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
+  .programaColunaCentro {
+    width: 100%;
+  }
+
+  .programaColunaEsquerda {
+    width: 100%;
+    display: block;
+  }
+
+  .programaColunaDireita {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .programaCartaoHora h2 {
+    font-size: 1.5rem;
+  }
+
+  .programaCartaoInfo h3 {
+    font-size: 0.8rem;
+  }
+
+  .programaCartaoInfo span.nomeEmpresa {
+    font-size: 1rem;
+  }
+
+  .programaCartaoInfo span.nomeApelido {
+    font-size: 0.8rem;
+  }
+
+  /*----------------Workshop-------------------*/
+
+  .containerWorkshop {
+    padding-bottom: 12vh;
+    padding-top: 12vh;
+  }
+
+  .textoWorkshop {
+    margin-bottom: 4vh;
+  }
+
+  .textoWorkshop h3 {
+    font-size: 1rem;
+  }
+
+  .textoWorkshop a {
+    width: 100%;
+  }
+
+  .textoWorkshop p {
+    display: none;
+  }
+
+  /*----------------Parceiros-------------------*/
+
+  .containerParceiros {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+  }
+
+  .containerParceiros h2 {
+    font-size: 1rem;
+  }
+
+  .organizadores {
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 5vh;
+  }
+
+  .parceirosGold {
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 5vh;
+  }
+
+  .logosDosOrganizadores div, 
+  .logosDosParceirosGold div {
+    width: 26%;
+    margin-right: 9.5%;
+  }
+
+  .logosDosOrganizadores div:last-of-type, 
+  .logosDosParceirosGold div:last-of-type {
+    margin-right: 0;
+  }
+
+  .logosDosOrganizadores img:last-of-type, 
+  .logosDosParceirosGold img:last-of-type  {
+    padding-right: 0;
+  }
+
+  .parceirosSilverLinha div {
+    width: 16%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+  }
+
+  .parceirosSilverLinha .ultimoMobile {
+    margin-right: 0;
+  }
+
+  /*----------------Sobre-------------------*/
+
+  .containerSobre {
+    padding-bottom: 12vh;
+    padding-top: 12vh;
+  }
+
+  .textoSobre {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .textoSobre h2 {
+    font-size: 1.4rem;
+  }
+
+  .textoSobre p {
+    text-align: left;
+    line-height: 1.8;
+    font-size: .8rem;
+  }
+
+  .imagemSobre {
+    display: block;
+    width: 100%;
+  }
+
+  .show-scroll {
+    display: none;
+  }
+
+  .containerFooter{
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+
+  /*----------------Footer-------------------*/
+
+  .containerFooterInfo,
+  .containerRedesSociais {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .textoEndereco {
+    width: 100%;
+  }
+
+  .FooterIcon {
+    vertical-align: top;
+    width: 7%;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+
+  .iconFooterTexto {
+    width: 89%;
+  }
+
+  .simboloFooter {
+    width: 17%;
+    padding-top: 0;
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+
+  .wrapperRedesSociais {
+    width: 17%;
+  }
+
+  .wrapperRedesSociais .FooterIcon {
+    width: 1.4rem;
+  }
+
+  .footer-texto-privacidade-direitos{
+    margin-left: 2%;
+    font-size: .7rem;
+  }
+}
+
