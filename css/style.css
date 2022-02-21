@@ -310,6 +310,7 @@ main .wrapper {
   display: inline-block;
   vertical-align: text-top;
   padding-right: 2%;
+  width: 28%;
 }
 
 .programaCartaoHora h2 {
@@ -322,6 +323,7 @@ main .wrapper {
   display: inline-block;
   vertical-align: text-top;
   padding-top: 1.5%;
+  width: 70%;
 }
 
 .programaCartaoInfo h3 {
